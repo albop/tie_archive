@@ -192,6 +192,10 @@ Generative Pre-trained Transformer 3 (GPT-3)
 
 ----
 
+![](production_function/pf_1.png)
+
+----
+
 ### Reminder: the Neoclassical View of Production
 
 
@@ -219,6 +223,10 @@ These views complement each other
 ---
 
 ## AI is a change in the cost structure
+
+----
+
+![](production_function/pf_2.png)
 
 ----
 
@@ -254,6 +262,11 @@ Avi Goldfarb: *Prediction Machines: The Simple Economics of Artificial Intellige
 ---
 
 ## AI is Data
+
+----
+
+
+![](production_function/pf_3.png)
 
 ----
 
@@ -351,6 +364,10 @@ Almost no
 ---
 
 ## Rise of the Robots
+
+----
+
+![](production_function/pf_4.png)
 
 ----
 
@@ -466,5 +483,4 @@ Brynjolfsson, Tom Mitchell, and Daniel Rock: *What Can Machines Learn and What D
 
 Gilles Saint Paul: *Robots Vers la fin du travail ?*
 
-Anton Korinek, Joseph E. Stiglitz: *Artificial Intelligence and Its Implications for Income Distribution and Unemployment*, chapter in * Artificial Intelligence and Its Implications ..., NBER*
-
+Anton Korinek, Joseph E. Stiglitz: *Artificial Intelligence and Its Implications for Income Distribution and Unemployment*, chapter in *Artificial Intelligence and Its Implications ..., NBER*
