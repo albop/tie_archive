@@ -48,6 +48,16 @@ Generative Pre-trained Transformer 3 (GPT-3)
 Generative Pre-trained Transformer 3 (GPT-3)
 </div>
 
+----
+
+### GPT-3
+
+- GPT-3: Generative Pre-trained Transformer
+  - by OpenAI (now Microsoft
+  - big deep-learning architecture, trained billions of texts
+  - a language model
+- 
+
 - <!-- .element: class="fragment" --> GPT-3 was trained to translate from legal into plain english, by looking at just <strong>two</strong> examples !!!!
 -  <!-- .element: class="fragment" --> can do many other things:
   - write progams
@@ -73,6 +83,10 @@ Generative Pre-trained Transformer 3 (GPT-3)
 
 ---
 
+## What is AI?
+
+----
+
 ### What is AI
 
 - AI can be:
@@ -84,13 +98,13 @@ Generative Pre-trained Transformer 3 (GPT-3)
   - a philosophical concept
 - Artificial intelligence: usual definition
   - mimic human intelligence: 
-    - problem solving: achieve goal withou being explicitly told how
+    - problem solving: achieve goal without being explicitly told how
     - learning: gets better over time
   - without emotions
 
 ----
 
-### How to make the difference between a robot and an AI ?
+### How to make the difference between a robot and a ?
 
 - Check whether it thinks like a human being
 - Turing test:
@@ -123,7 +137,6 @@ Generative Pre-trained Transformer 3 (GPT-3)
 - Nick Bostrom: "once something becomes useful enough and common enough it's not labeled AI anymore"
 - keep human special
   - interestingly that didn't seem to be a concern before the 70s
-
 
 ----
 
@@ -181,12 +194,71 @@ Generative Pre-trained Transformer 3 (GPT-3)
   - ... but we are repeatedly proven wrong
   - ... if they exist we don't know what they are
 
-
 - Von Neuman: "You insist that there is something a machine cannot do. If you will tell me *precisely* what it is that a machine cannot do, then I can always make a machine which will do just that!"
 
 - In the long run, we should think about AI in a way that is not too specific to its current nature
 
 ---
+
+
+## The Future of Work. Now.
+
+----
+
+### Who is going to be replaced?
+
+*What Can Machines Learn and What Does It Mean for Occupations and the Economy?* Erik Brynjolfsson, Tom Mitchell, and Daniel Rock
+
+- Rise of automation was detrimental middle jobs. Same here?
+  - AI technology is potentially very pervasive because it doesn't require much formalism
+  - Polanyi's paradox: we know more than we can tell
+
+- Consider technology available today: Machine Learning (including DL)
+- Is it susceptible to replace workers ? is your work at risk ?
+- Paper considers only displacement feasibility
+
+
+----
+
+### Who is going to be replaced? (2)
+
+- An occupation is a bundle of tasks
+  - tries to find which tasks are susceptible to machine learning (SML)
+
+- from O*NET database (occupational information)
+  - 964 *occupations*
+  - decomposed 18,156 *tasks*
+  - made of 2,069 work activities
+    - ex: sort information, show empathy
+
+- Crowdflower: evaluate work activities by answering
+  - 23 distinct statements to be evaluated on a 5-point scale varying from “strongly disagree” to “strongly agree.”
+  - example: is repetitive, requires data, requires physical action
+
+----
+
+### Who is going to be replaced? (3) Results
+
+![](result__occupations.png)
+
+Almost no
+- fully replaceable occupation
+- fully ML immune occupation
+
+----
+
+
+### Who is going to be replaced? (3) Results
+
+![](result__distribution.png)
+
+- everybody is at risk
+- very different from effect of automation in the 90s
+  - polarization effect on the work force: disappearance of intermediary jobs
+  - effect *might* work in reverse
+
+---
+
 
 ## "This Time it's Different" or "Same old, same old"
 
@@ -303,66 +375,6 @@ Chad Jones and Christopher Tonetti (Stanford) (Sep 2020, American Economic Revie
 
 ---
 
-
-## The Future of Work. Now.
-
-----
-
-### Who is going to be replaced?
-
-
-*What Can Machines Learn and What Does It Mean for Occupations and the Economy?* Erik Brynjolfsson, Tom Mitchell, and Daniel Rock
-
-- Rise of automation was detrimental middle jobs. Same here?
-  - AI technology is potentially very pervasive because it doesn't require much formalism
-  - Polanyi's paradox: we know more than we can tell
-
-- Consider technology available today: Machine Learning (including DL)
-- Is it susceptible to replace workers ? is your work at risk ?
-- Paper considers only displacement feasibility
-
-
-----
-
-### Who is going to be replaced? (2)
-
-- An occupation is a bundle of tasks
-  - tries to find which tasks are susceptible to machine learning (SML)
-
-- from O*NET database (occupational information)
-  - 964 *occupations*
-  - decomposed 18,156 *tasks*
-  - made of 2,069 work activities
-    - ex: sort information, show empathy
-
-- Crowdflower: evaluate work activities by answering
-  - 23 distinct statements to be evaluated on a 5-point scale varying from “strongly disagree” to “strongly agree.”
-  - example: is repetitive, requires data, requires physical action
-
-----
-
-### Who is going to be replaced? (3) Results
-
-![](result__occupations.png)
-
-Almost no
-- fully replaceable occupation
-- fully ML immune occupation
-
-----
-
-
-### Who is going to be replaced? (3) Results
-
-![](result__distribution.png)
-
-- everybody is at risk
-- very different from effect of automation in the 90s
-  - polarization effect on the work force: disappearance of intermediary jobs
-  - effect *might* work in reverse
-
----
-
 ## Rise of the Robots
 
 ----
@@ -446,7 +458,7 @@ Four political subscenarios
 
 ---
 
-## Something Else Completely
+## Something Else Completely?
 
 - Right now AI is a technology
 - What if it becomes another intelligent agent?
@@ -473,14 +485,14 @@ Four political subscenarios
 
 ---
 
-## More Reading
+## More Readings
 
-Chad Jones and Christopher Tonetti: *Nonrivalry and the Economics of Data*, American Economic Review
+- Chad Jones and Christopher Tonetti: *Nonrivalry and the Economics of Data*, American Economic Review
 
-Avi GoldFrab: *Prediction Machines: The Simple Economics of Artificial Intelligence* 2018
+- Avi GoldFarb: *Prediction Machines: The Simple Economics of Artificial Intelligence* 2018
 
-Brynjolfsson, Tom Mitchell, and Daniel Rock: *What Can Machines Learn and What Does It Mean for Occupations and the Economy?*, American Economic Review P&P
+- Brynjolfsson, Tom Mitchell, and Daniel Rock: *What Can Machines Learn and What Does It Mean for Occupations and the Economy?*, American Economic Review P&P
 
-Gilles Saint Paul: *Robots Vers la fin du travail ?*
+- Gilles Saint Paul: *Robots Vers la fin du travail ?*
 
-Anton Korinek, Joseph E. Stiglitz: *Artificial Intelligence and Its Implications for Income Distribution and Unemployment*, chapter in *Artificial Intelligence and Its Implications ..., NBER*
+- Anton Korinek, Joseph E. Stiglitz: *Artificial Intelligence and Its Implications for Income Distribution and Unemployment*, chapter in *Artificial Intelligence and Its Implications ..., NBER*
