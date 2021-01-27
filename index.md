@@ -4,7 +4,25 @@
 
 ## About myself
 
-![Pablo Winant](0_girafes.jpg)<!-- .element height="45%" width="45%" -->
+
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+
+![Pablo Winant](0_girafes.jpg)<!-- .element height="100%" width="100%" -->
+
+</div>
+
+<div class="col">
 
 - Professional experience
   - IMF
@@ -16,6 +34,11 @@
   - international finance
   - monetary policy
   - artificial intelligence
+
+</div>
+
+</div>
+
 
 ----
 
