@@ -51,6 +51,6 @@
 | 25/01 | Should Central Banks save the Planet               | Noemie Lisack (BdF)                      |
 | 01/02 | Technological standards                            | Henri Delcamp (ESCP/FTI Consulting)      |
 | 08/02 | Energy Transition: ZEN                             | Fanny Henriet (CNRS/PSE)                 |
-| 22/02 | ???                                                | Alexandre Cadain  (ANIMA / AI Commons  ? |
+| 22/02 | Eco Games                                                | Alexandre Cadain  (ANIMA / AI Commons  ? |
 | 01/03 | 5G Contracts                                       | Dider Patry (France Brevets)             |
 | 08/03 | Final Session / Exam                               |                                          |
