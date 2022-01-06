@@ -55,6 +55,8 @@
 
 ## How do you define "Economics" ?
 
+Wikipedia: Economics is a social science that studies the production, distribution, and consumption of goods and services.[4]
 
+AEA: It’s the study of scarcity, the study of how people use resources and respond to incentives, or the study of decision-making. 
 
 ---
