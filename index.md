@@ -40,3 +40,21 @@
 </div>
 
 </div>
+
+---
+
+## This course
+
+- Approach economic topics from different angles
+- Start with hot topics
+  - e.g. AI, production chain, carbon tax
+- Connect with economic fields and theories
+- Try to think outside of the box
+
+---
+
+## How do you define "Economics" ?
+
+
+
+---
