@@ -26,7 +26,7 @@
 
 - Professional experience
   - IMF
-  - Banque of England
+  - Bank of England
 - Teaching
   - ESCP Business School
   - Ecole Polytechnique
