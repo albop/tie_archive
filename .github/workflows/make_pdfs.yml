@@ -16,6 +16,16 @@ jobs:
         with:
           node-version: '14'
 
+
+      - name: Info
+        run: pwd
+
+      - name: Info 2
+        run: ls
+
+      - name: Info 3
+        run: ls revealjs
+
       - name: Install Decktape
         run: npm install decktape
 
