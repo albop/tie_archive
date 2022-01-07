@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'reveal-js-presentation/*'
+
 
 jobs:
   build:
