@@ -1,0 +1,4 @@
+revealjs/*
+node_modules/*
+*.pdf
+package-lock.json
