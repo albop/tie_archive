@@ -4,7 +4,7 @@ Schedule is purely indicative so far.
 
 | Date  | Topic                                              | Speaker                 |
 | ----- | -------------------------------------------------- | ----------------------- |
-| 10/01 | Introduction  / Rise of Artificial Intelligence    | Pablo Winant            |
+| 10/01 | Introduction  / Rise of Artificial Intelligence  (link, [pdf](https://github.com/albop/tie/raw/slides/index.pdf))  | Pablo Winant            |
 | 17/01 | How bIAsed is AI vs. Human biases                  | Pablo Winant            |
 | 24/01 | Supply Chain Shortages                             |                         |
 | 31/02 | Circular Economics                                 |   Eugenie Joltreau      |
