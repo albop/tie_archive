@@ -7,23 +7,31 @@ on:
 
 jobs:
   build:
-    runs-on: astefanutti/decktape
+    runs-on: ubuntu-latest
 
     name: Generate PDF
     steps:
       - uses: actions/checkout@v2.3.4
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-      - name: Create "/slides" directory
-        run: mkdir slides && sudo chmod 777 slides
+      - name: Install Decktape
+        run: npm install decktape
 
-      - name: Info
-        run: pwd
+      - name: Run Decktape
+        run: decktape reveal index.html out.pdf
+      # - name: Create "/slides" directory
+      #   run: mkdir slides && sudo chmod 777 slides
 
-      - name: Info 2
-        run: ls
+      # - name: Info
+      #   run: pwd
 
-      - name: Build PDF
-        run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files  
+      # - name: Info 2
+      #   run: ls
+
+      # - name: Build PDF
+      #   run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files  
 
         # run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf
 
