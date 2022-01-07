@@ -20,7 +20,7 @@ jobs:
         run: npm install decktape
 
       - name: Run Decktape
-        run: decktape reveal index.html out.pdf
+        run: node_modules/.bin/decktape reveal index.html out.pdf
       # - name: Create "/slides" directory
       #   run: mkdir slides && sudo chmod 777 slides
 
