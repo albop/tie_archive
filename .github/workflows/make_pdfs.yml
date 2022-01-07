@@ -23,7 +23,7 @@ jobs:
         run: ls
 
       - name: Build PDF
-        run: docker run --rm -t -v `pwd`:/home/user astefanutti/decktape index.html slides/index.pdf
+        run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf
 
         # run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf
 
