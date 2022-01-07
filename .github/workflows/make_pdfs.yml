@@ -16,6 +16,12 @@ jobs:
       - name: Create "/slides" directory
         run: mkdir slides && sudo chmod 777 slides
 
+      - name: Info
+        run: pwd
+
+      - name: Info 2
+        run: ls
+
       - name: Build PDF
         run: docker run --rm -t -v `pwd`:/slides -v ~:/home/user astefanutti/decktape index.html slides/index.pdf
 
