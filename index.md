@@ -26,7 +26,7 @@
 
 - Professional experience
   - IMF
-  - Banque of England
+  - Bank of England
 - Teaching
   - ESCP Business School
   - Ecole Polytechnique
@@ -40,3 +40,23 @@
 </div>
 
 </div>
+
+---
+
+## This course
+
+- Approach economic topics from different angles
+- Start with hot topics
+  - e.g. AI, production chain, carbon tax
+- Connect with economic fields and theories
+- Try to think outside of the box
+
+---
+
+## How do you define "Economics" ?
+
+Wikipedia: Economics is a social science that studies the production, distribution, and consumption of goods and services.[4]
+
+AEA: It’s the study of scarcity, the study of how people use resources and respond to incentives, or the study of decision-making. 
+
+---
