@@ -38,6 +38,9 @@ jobs:
       - name: Run Decktape
         run: node_modules/.bin/decktape reveal index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files
 
+      - name: Run Decktape
+        run: node_modules/.bin/decktape reveal session_1/index.html slides/session_1.pdf --chrome-arg=--allow-file-access-from-files
+
       # - name: Info
       #   run: pwd
 
