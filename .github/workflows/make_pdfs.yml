@@ -32,11 +32,11 @@ jobs:
       - name: Install Decktape
         run: npm install decktape
 
-      - name: Run Decktape
-        run: node_modules/.bin/decktape reveal index.html out.pdf --chrome-arg=--allow-file-access-from-files
+      - name: Create "/slides" directory
+        run: mkdir slides && sudo chmod 777 slides
 
-      # - name: Create "/slides" directory
-      #   run: mkdir slides && sudo chmod 777 slides
+      - name: Run Decktape
+        run: node_modules/.bin/decktape reveal index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files
 
       # - name: Info
       #   run: pwd
@@ -48,9 +48,6 @@ jobs:
       #   run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files  
 
         # run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf
-
-      - name: Show Results PDF
-        run: ls slides/index.pdf
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
