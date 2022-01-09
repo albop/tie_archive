@@ -1,8 +1,6 @@
 
 ---
 
-## About myself
-
 <style>
 .container{
     display: flex;
@@ -12,34 +10,6 @@
 }
 </style>
 
-<div class="container">
-
-<div class="col">
-
-![Pablo Winant](pablo_winant.png)<!-- .element height="80%" width="80%" -->
-
-</div>
-
-<div class="col">
-
-- Professor at ESCP and Ecole Polytechnique
-
-- Professional experience
-  - IMF
-  - Banque of England
-
-- Research:
-  - computational economics
-  - inequalities
-  - international finance
-  - monetary policy
-  - artificial intelligence
-
-</div>
-
-</div>
-
----
 
 <div class="fragment">
 <strong>The Inherent Error in Value in Big Companies</strong>

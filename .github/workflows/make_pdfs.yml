@@ -1,0 +1,61 @@
+name: reveal-pdf
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    name: Generate PDF
+    steps:
+      - uses: actions/checkout@v2.3.4
+        with:
+          submodules: true
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+
+      - name: Info
+        run: pwd
+
+      - name: Info 2
+        run: ls
+
+      - name: Info 3
+        run: ls revealjs
+
+      - name: Install Decktape
+        run: npm install decktape
+
+      - name: Create "/slides" directory
+        run: mkdir slides && sudo chmod 777 slides
+
+      - name: Run Decktape
+        run: node_modules/.bin/decktape reveal index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files
+
+      - name: Run Decktape
+        run: node_modules/.bin/decktape reveal session_1/index.html slides/session_1.pdf --chrome-arg=--allow-file-access-from-files
+
+      # - name: Info
+      #   run: pwd
+
+      # - name: Info 2
+      #   run: ls
+
+      # - name: Build PDF
+      #   run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files  
+
+        # run: docker run --rm -t -v `pwd`:/slides -v /home/runner/work/tie/tie:/home/user astefanutti/decktape index.html slides/index.pdf
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./slides
+          publish_branch: slides
+          keep_files: true
