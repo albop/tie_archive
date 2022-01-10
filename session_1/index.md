@@ -68,22 +68,23 @@ Generative Pre-trained Transformer 3 (GPT-3)
 - GPT-3: Generative Pre-trained Transformer
   - by OpenAI (now Microsoft
   - big deep-learning architecture, trained billions of texts
-  - a language model
-- 
-
+  - a "language" model
 - <!-- .element: class="fragment" --> GPT-3 was trained to translate from legal into plain english, by looking at just <strong>two</strong> examples !!!!
--  <!-- .element: class="fragment" --> can do many other things:
-  - write progams
+- <!-- .element: class="fragment" --> Can do many other things:
+  - write programs
   - produce financial statements
   - generate tweets
+  - translate text
 
 ----
 
+### How do you see the *future* of AI ?
 
 ![](Blade-Runner.jpg)
 
-- Science Fiction has explored many problems associated with AI. 
-- Very often economic future is bleak...
+- <!-- .element: class="fragment" --> Science Fiction has explored many problems associated with AI. 
+- <!-- .element: class="fragment" --> Very often economic future is bleak...
+  - <!-- .element: class="fragment" --> Why is that so?
 
 
 ---
@@ -109,10 +110,10 @@ Generative Pre-trained Transformer 3 (GPT-3)
     - deep learning
     - reinforcement learning
   - a philosophical concept
-- Artificial intelligence: usual definition
+- <!-- .element: class="fragment" -->Usual definition of AI:
   - mimic human intelligence: 
-    - problem solving: achieve goal without being explicitly told how
-    - learning: gets better over time
+    - *problem solving*: achieve goal without being explicitly told how
+    - *learning*: gets better over time
   - without emotions
 
 ----
@@ -123,7 +124,7 @@ Generative Pre-trained Transformer 3 (GPT-3)
 - Turing test:
   - a machine discussing with a human must be recognized as a human 50% of the time
   - can machines emulate human behaviour?
-- Chinese Room thought experiment
+- Chinese Room thought experiment:
   - how to differentiate somebody who speaks chinese and somebody who follows rules to speak?
   - turing test cannot determine whether machines think
 
@@ -134,8 +135,8 @@ Generative Pre-trained Transformer 3 (GPT-3)
 - So, what can machines do that is really intelligent?
   - speech recognition, language translation
   - drive a car
-  - play chess better than a man
-  - play go, better than a man, without being a specialist, by learning on its own
+  - play chess better than a human
+  - play go, better than a humman, without being a specialist, by learning on its own
   - [create](https://thispersondoesnotexist.com/), [imagine](http://www.yaronhadad.com/deep-learning-most-amazing-applications/)
   - have [empathy](https://replika.ai/)
 
@@ -156,14 +157,14 @@ Generative Pre-trained Transformer 3 (GPT-3)
 ### What does the machine do?
 
 
-<img src=linear_regression.png width=50%>
+<img src=linear_regression.png width=40%>
 
 - fit a model to represent the data (learn)
 - extrapolate to make a prediction
 - like a linear regression?
-  - yes, but with more complicated model
+  - yes, but with more complicated *model*
   - machine learning has many of them
-  - deep learning is now
+- deep learning is the current state of the art
 
 ----
 
@@ -186,10 +187,10 @@ Generative Pre-trained Transformer 3 (GPT-3)
 
 ### Weak AI / Strong AI
   
-- Weak AI 
+- __Weak AI__
   - specific task (recognize images, interpolate data, drive car)
   - human specify objectives, training hyperparameters
-- Strong AI:
+- __Strong AI__:
   - general-purpose
   - sets it own goal...
   - ...evolve over time
@@ -197,7 +198,7 @@ Generative Pre-trained Transformer 3 (GPT-3)
     - turing test
     - CRA
   - would still have to learn
-- Singularity: AI is developped with research made by AI
+- __Singularity__: AI is developped with research made by AI
 
 ----
 
@@ -222,21 +223,21 @@ Generative Pre-trained Transformer 3 (GPT-3)
 
 *What Can Machines Learn and What Does It Mean for Occupations and the Economy?* Erik Brynjolfsson, Tom Mitchell, and Daniel Rock
 
-- Rise of automation was detrimental middle jobs. Same here?
+- Rise of __automation__ was detrimental to middle jobs. Same here?
   - AI technology is potentially very pervasive because it doesn't require much formalism
   - Polanyi's paradox: we know more than we can tell
+  - AI / Deep Learning is good at Polanyi tasks
 
-- Consider technology available today: Machine Learning (including DL)
+- Consider technology available __today__: Machine Learning (including DL)
 - Is it susceptible to replace workers ? is your work at risk ?
-- Paper considers only displacement feasibility
-
+- Paper considers only displacement __feasibility__
 
 ----
 
 ### Who is going to be replaced? (2)
 
 - An occupation is a bundle of tasks
-  - tries to find which tasks are susceptible to machine learning (SML)
+  - authors try to find which tasks are susceptible to machine learning (SML)
 
 - from O*NET database (occupational information)
   - 964 *occupations*
@@ -254,9 +255,9 @@ Generative Pre-trained Transformer 3 (GPT-3)
 
 ![](result__occupations.png)
 
-Almost no
-- fully replaceable occupation
-- fully ML immune occupation
+- <!-- .element: class="fragment" -->Almost no
+  - fully replaceable occupation
+  - <!-- .element: class="fragment" -->fully ML immune occupation
 
 ----
 
@@ -284,7 +285,7 @@ Almost no
 ### Reminder: the Neoclassical View of Production
 
 
-- production takes several factors as inputs
+- production takes several *factors* as inputs
 - marginal returns w.r.t. each factor are *decreasing*
 - factors are paid according to their marginal productivity
 - the precise description depends on the problem under consideration
@@ -293,15 +294,14 @@ Almost no
 
 ----
 
-
 ### Three hypotheses about the economic nature of AI
 
-1. Another Technological Advance
-   1. prediction technology
-   2. data
-2. Another Technological Advance, Just, More Extreme
-   1. a competitor for humans
-3. Something else Completely
+- Another Technological Advance
+  - prediction technology
+  - data
+- Another Technological Advance, Just, More Extreme
+  - a competitor for humans
+- Something else Completely
 
 These views complement each other
 
@@ -322,7 +322,7 @@ Avi Goldfarb: *Prediction Machines: The Simple Economics of Artificial Intellige
 
 - suprise: many problems can be formulated as prediction problems
   - when the cost of something decrease you want more of it (law of demand)
-- production adjust to minimize cost of production
+- production adjusts to minimize cost of production
 - AI is a decrease in the __cost__ of predictions
   - Value of all tasks/jobs complementary with predictions will rise
   - Salary of other tasks will fall
@@ -333,11 +333,11 @@ Avi Goldfarb: *Prediction Machines: The Simple Economics of Artificial Intellige
 ### Another implication of the same thinking:
 
 - today Deep Learning consumes a lot of energy
-- GPT-3 training produces CO2 equivalent equivalent to 126 danish homes
+- <!-- .element: class="fragment" -->GPT-3 training produces CO2 equivalent equivalent to 126 danish homes
   - 50 petaflop/s-days  (laptop << 1000 teraflops/s : 50000 days for a regular laptop)
-- seems crazy, right ?
+- <!-- .element: class="fragment" -->seems crazy, right ?
     - or, is it ? what other process does the same in a more efficient way ?
-- is such a technology is unethical?
+- <!-- .element: class="fragment" -->is such a technology unethical?
   - DL technology has been developped with cheap energy / cheap carbon emissions
     - algorithmically very inefficient (bruteforce)
     - *lots* of useless operations (lots tries and errors due to bad priors)
@@ -358,33 +358,33 @@ Avi Goldfarb: *Prediction Machines: The Simple Economics of Artificial Intellige
 ## AI: adds data to the production function
 
 
-Chad Jones and Christopher Tonetti (Stanford) (Sep 2020, American Economic Review)
+Chad Jones and Christopher Tonetti (Stanford) *Nonrivalry and the Economics of Data* (Sep 2020, American Economic Review)
 
 - Data is a factor, not a technology
   - idea: use machine learnig to build self driving cars
-  - factor: each car-maker gathering is own data
-- Data improves quality of product (even if anonymous)
-- A nonrival good: can be used with leftovers
+  - factor: each car-maker gathering his own data
+- <!-- .element: class="fragment" -->Data improves quality of product (even if anonymous)
+- <!-- .element: class="fragment" -->A nonrival good: can be used with leftovers
   - but excludable: club goods
-- Nonrival implies *increasing returns to scale*:
+- <!-- .element: class="fragment" -->Nonrival implies *increasing returns to scale*:
   - marginal value of new data increases more than proportionnally
 
 ----
 
 ### AI: adds data to the production function (consequences)
 
-- increasing returns to scale implies (natural) monopoly
+- <!-- .element: class="fragment" -->increasing returns to scale implies (natural) monopoly
   - GAFAMs
   - increasing suboptimal monopoly rents (already a problem before existence of AI...)
   - at this stage not clear what is the barrier to entry: data-gathering or data-processing
-- what kind of good is data 
+- <!-- .element: class="fragment" --> what kind of good is data 
   - where are the markets? (empirically it seems "undertraded")
   - who owns the data ? Consumer, producer.
 - solutions:
   - split the monopolies (if deadweight loss is too big)
   - outlaw data gathering (big productivity loss)
   - force data-sharing: make it a public good
-  - let the consumer be free to decide whether to rent his data
+  - let the consumer be free to decide whether to rent his data (remove externalitiess)
 
 ---
 
@@ -406,12 +406,12 @@ Chad Jones and Christopher Tonetti (Stanford) (Sep 2020, American Economic Revie
   - always good for consumers. Increase (real) total income.
   - becomes an inequality problem
 
-- __But__:
+- <!-- .element: class="fragment" --> But:
   - whether it reduces salaries depends on whether growth is labour augmenting or capital augmenting
   - if AI is a close enough substitute, salaries of "humans" as a whole are at risk
   - the is an economic *singularity* when salary of humans arrives below the subsistance level
 
-- Two sets of authors reach very similar conclusions
+- <!-- .element: class="fragment" -->Two sets of authors reach very similar conclusions
   - Anton Korinek and Joseph Stiglitz: more complete/technical
   - Gilles Saint Paul: more political economy
 
@@ -429,19 +429,19 @@ Chad Jones and Christopher Tonetti (Stanford) (Sep 2020, American Economic Revie
 
 ### Scenario 1: society redistributes income from robots
 
-Four political subscenarios
+<!-- .element: class="fragment" -->Four political subscenarios
 
-1. welfare state
+- <!-- .element: class="fragment" -->welfare state
   - robot-owners are taxed, income is redistributed
    - for instance as universal income
   - some productivity loss
   - what about international competition?
-2. rentiers society
+- <!-- .element: class="fragment" -->rentiers society
   - robot owners invest the rent over many generations. capital concentration increases
-3. neo fordism
+- <!-- .element: class="fragment" -->neo fordism
   - Firms pay huge salaries for essentially useless jobs (powerpoint presentations, ...)
   - Useful to sustain demand
-4. roman empire
+- <!-- .element: class="fragment" -->roman empire
   - robot owners: __patricians__ (top 2%)
   - rest of population: __plebeians__
     - survive thanks to clientelism
@@ -453,9 +453,9 @@ Four political subscenarios
 
 ![](horses_population.png)
 
-  - human income falls below subsistance levels
-  - malthusian effect: population growth decreases
-  - not unheard of (Leontieff): consider population of draft horses
+- human income (marginal productivity) falls below subsistance levels
+- <!-- .element: class="fragment" -->malthusian effect: population growth decreases
+- <!-- .element: class="fragment" -->not unheard of (Leontieff): consider population of draft horses
 
 ----
 
@@ -464,7 +464,7 @@ Four political subscenarios
 <img src=matrix.jpg width=60%>
 
 - human wage decrease
-- subsistance level decrease dramatically too
+- subsistance level *decrease* dramatically too
 
 
 <!-- Carbon emissions decreased by 26% during CoVid -->
@@ -474,12 +474,12 @@ Four political subscenarios
 ## Something Else Completely?
 
 - Right now AI is a technology
-- What if it becomes another intelligent agent?
+- <!-- .element: class="fragment" -->What if it becomes another intelligent agent?
   - has its own goals
   - its own preferences
   - with superhuman thinking abilities...
-- Response:
-  - Anton Korinek: if market economy survives
+- <!-- .element: class="fragment" -->Response:
+  - Anton Korinek: __if__ market economy survives
     - malthusian and non-malthusian scenarios
   - At that stage humans might be something different completely
     - transhumanism
@@ -495,7 +495,6 @@ Four political subscenarios
   - imagine
   - play games
 
-
 ---
 
 ## More Readings
@@ -509,3 +508,4 @@ Four political subscenarios
 - Gilles Saint Paul: *Robots Vers la fin du travail ?*
 
 - Anton Korinek, Joseph E. Stiglitz: *Artificial Intelligence and Its Implications for Income Distribution and Unemployment*, chapter in *Artificial Intelligence and Its Implications ..., NBER*
+  - also on [coursera](https://fr.coursera.org/learn/economics-of-ai)
