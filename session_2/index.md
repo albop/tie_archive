@@ -14,35 +14,36 @@
 
 ----
 
-## Intro
+## A small question
 
-[TODO striking example of an AI mistake]
-
-----
-
-## Are you ready to be driven by an AI-driven car?
-
-[two cols: with incremental info][mention software in tesla cars]
-1/ Are you ready to be driven by an AI-driven car, 5 years from now?
-2/ Info about car accidents.
-  - crashes (more crashes )
-3/ Info about biases in AI.
-  - video
-  - incorrect reading of traffic signs
-
-[then there are the matters of responsibility, ethical concerns, etc.]
+- Are you ready to be driven by an AI-driven car, 5 years from now?
+- <!-- .element class="fragment" --> Info about car accidents (today)
+  - AI: 9 crashes per million mile
+  - human: 4 crashes per million mile
+  - but almost not major injury in AI driven cars
+- <!-- .element class="fragment" --> AIs are easy to fool
+  - incorrect reading of traffic signs with small modifications
+  - see [nature]( https://www.nature.com/articles/d41586-019-03013-5)
 
 ----
+
+<!-- 
+## Is AI Stupid?
+
+examples: sees world in different light
+lacks context (meta heuristics, ability to disobey)
+
+--- -->
 
 ## AIs will take more and more decisions
 
-- AIs will take more and more decisions
-  - decide what you'll watch on Netflix
-  - drive your car
-  - select the recruits you will hire
-  - decide whether you should be receiving treatment from the nearby hospital
-  - invest your personal finances
-  - decide optimal monetary policy of the central bank
+- <!-- .element class="fragment" --> AIs will take more and more decisions
+  - <!-- .element class="fragment" -->decide what you'll watch on Netflix
+  - <!-- .element class="fragment" -->drive your car
+  - <!-- .element class="fragment" -->select the recruits you will hire
+  - <!-- .element class="fragment" -->decide whether you should be receiving treatment from the nearby hospital
+  - <!-- .element class="fragment" -->invest your personal finances
+  - <!-- .element class="fragment" -->decide optimal monetary policy of the central bank
 - But there will always be a human overseeing these AI decisions?
 - ...right?
 
@@ -92,10 +93,9 @@ The decision sciences concern themselves with questions like:
 We'll consider different ways to analyse AI behaviour from an economic perspective.
 In particular, we'll draw parallels, between AI decisions and human decisions
 
-- is AI "stupid"?
 - biases from a quantitative/statistical approach
 - the problem of preference misspecification
-- behavioural mistakes
+- behavioural mistakes (not today)
 - homework, talk about your classwork
 
 ---
@@ -122,14 +122,6 @@ Here is the forecast from the latest World Economic Outlook (IMF)
 Is it biased?
 
 ----
-<!-- 
-## Bias vs variance
-
-An algorithm can be always wrong, but not biased. In this case it is said to have high "variance".
-
-In general there is an arbitrage between low bias and low variance.
-
----- -->
 
 ## Sources of biases
 
@@ -142,6 +134,7 @@ In general there is an arbitrage between low bias and low variance.
 - Other sources (essentially *human bias*)
   - funding bias
   - social prejudice
+  - human limitation
   - ...
 
 ----
@@ -261,10 +254,9 @@ Obviously, the way the AI (or you) makes category, depends on the dataset it has
 </div>
 <div class="col">
 
-- analyze skin images to recognize malignant melanoma
-- as good as human dermatologists
-  - [TODO] add figures
-- more cost-effective (can work on a smartphone)
+- <!-- .element class="fragment"  data-fragment-index="1" -->analyze skin images to recognize malignant melanoma
+- <!-- .element class="fragment"  data-fragment-index="2" -->as good as human dermatologists
+- <!-- .element class="fragment"  data-fragment-index="3" --> more cost-effective (can work on a smartphone)
 
 </div>
 
@@ -275,12 +267,12 @@ Obviously, the way the AI (or you) makes category, depends on the dataset it has
 
 __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, Weibel)
 
-- The same "test patient" was sent to 180 dentists who offered treatment recommendation and cost estimate.
-- Test patient did not need treatment (caries lesions limited to enamel).
-- 28% of practitioners made a wrong treatment recommendation
-- What were the determinants of the bias?
+- <!-- .element class="fragment" -->The same "test patient" was sent to 180 dentists who offered treatment recommendation and cost estimate.
+- <!-- .element class="fragment" -->Test patient did not need treatment (caries lesions limited to enamel).
+- <!-- .element class="fragment" -->28% of practitioners made a wrong treatment recommendation
+- <!-- .element class="fragment" -->What were the determinants of the bias?
   - Social Economic Status (-)
-  - Lower Waiting Time
+  - Lower Waiting Time (+)
   
 ----
 
@@ -310,17 +302,11 @@ __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, We
 
 ----
 
-### Hungry Judge Effect
-
-...
-
-----
-
 ### Conclusions
 
 - AI can reproduce human biases
   - in the way algorithm is designed
-  - if it immitates human or if its objective incorporates human bias
+  - if it immitates humans or if its objective incorporates human bias, conscious or not
 - AI's don't have all human biases
   - no hungry judge effect
   - no funding cost (or do they?)
@@ -330,14 +316,7 @@ __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, We
 
 ---
 
-## Is AI Stupid?
-
-examples: sees world in different light
-lacks context (meta heuristics, ability to disobey)
-
----
-
-## Preference Mispecifications
+## Preference Misspecification
 
 ----
 
@@ -356,17 +335,18 @@ lacks context (meta heuristics, ability to disobey)
 
 ### Example: Brexit
 
-Here, the objective might not be well specified.
+![](cliff_divers.jpg)
 
-There are unsaid, unconscious, objectives
+Was the collective decision of leaving the UK biased, based on available evidence?
+- <!-- .element class="fragment" --> Here, the objective might not be well specified. There are unsaid, unconscious, objectives
 
 ----
 
-### Example: AI objective misspecification
+### Examples: AI objective misspecification
 
-- famous scifi example
-- consumption maximization
 - AI objective misspecification
+  - famous scifi examples: Asimov's robots, the smiling man, ...
+  - example: intertemporal consumption maximization
 
 ----
 
@@ -375,28 +355,35 @@ There are unsaid, unconscious, objectives
 - Under some circumstances, taking bias decisions can provide a survival advantage
   - treat unknown species as "hostile"
 - Limit processing cost
+- Provide informational value, i.e. help to learn faster
 
 ----
 
 ### An example of "trimming"
 
-![](face_recognition.png)
 
+<img src="face_recognition.png" class="fragment" width="40%"  data-fragment-index="2">
+<img src="babies.jpg" class="fragment" width="40%" data-fragment-index="5">
 
-
+- AI algorithm have become very good at recognizing and distinguishing faces...
+  - <!-- .element: class="fragment"  data-fragment-index="2" --> ... mostly white men
+  - <!-- .element: class="fragment"  data-fragment-index="3" --> selection bias again
+- <!-- .element: class="fragment"  data-fragment-index="4" -->Adults have the same biases: they distinguish better faces from their own reference group
+- <!-- .element: class="fragment"  data-fragment-index="5" -->Strikingly 6 month old babies don't: they recognize all faces (Netflix: "babies")
+- <!-- .element: class="fragment"  data-fragment-index="6" -->The unlearning is called trimming (to save brain resources???)
+- <!-- .element: class="fragment"  data-fragment-index="7" -->Same happens with language: initially babies can distinguish all sounds in all languages
 
 ----
 
-### Provide learning advantage
+### An example of learning externality
 
-Why do newer movies have better ratings than older ones on movie databases (like Allocine)
-And why is the website not doing anything about it?
-
-
-----
-
-
-
+- Why do newer movies have better ratings than older ones on movie databases (like Allocine)
+- <!-- .element: class="fragment"  data-fragment-index="2" -->And why are website not doing anything about it?
+- <!-- .element: class="fragment"  data-fragment-index="3" -->New movies are intentionnaly overrated or 
+  - to push consumers towards "exploring"
+  - to produce more information
+  - and improve the rating of new movies
+- <!-- .element: class="fragment"  data-fragment-index="4" -->It can be interpreted as a learning externality
 
 ----
 
@@ -416,29 +403,61 @@ And why is the website not doing anything about it?
 
 ----
 
-### A big limitation
+### Multi - objectives
 
+- We want multi-objectives:
+  - have sensible default for out of sample [situations](https://techcrunch.com/2017/03/17/laying-a-trap-for-self-driving-cars/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALMqR3R_-o890IYOqB6ZIH6QxlVCnda96sNz--MMiYjzGvm9FaHBZ5Hkey2FmhXzEx26r9wBMfsGpfPO9GFW30E-udtq9GgVqMr4JRrFoTUV5c0-YGdpweHxQADKpycNaenh2KvRfInOD5eVTbuGyaHbGJignO42-iJUZlw8_BpA)
+  - mitigate wrong objectives given by humans
 - The problem is when AIs are follow multiple objectives (which they need if they need a notion of context) their bias becomes harder to measure
 
 ----
 
 ### Example: parcoursup, a ranking algorithm
 
-- The problem: match universities wishes and students wishes
-  - while respecting current norms
-
+- parcoursup match universities wishes and students wishes
+  - while respecting current laws
+- it is a variant of a stable marriage problem
+- how do you formulate the optimum?
+  - impossible to satisfy everybody
+- implementation details makes random decisions
+  - in order to avoid bias!
+  - and satisfy local regulations
+- has created a lot of discontentment
 
 ---
 
-## Behavioral mistakes
+### Conclusions
 
+- The concept of bias is contingent to the right, scalar, objective specification
+- That one is sometimes hard to formulate completely
+- The presence of several objectives complicates the pictures
+  - for humans
+  - and AIs
 
 ---
+
 
 ## Your Project
 
----
+----
 
+### Coursework proposition
+
+- a big advantage of AIs is that they can be tested easily
+- <!-- .element class="fragment" --> if we had access to a general purpose AI, we could design experiments in order to test:
+  - what are its revealed preferences (consistent, risk averse, irrational)
+  - what biases it has
+  - whether it exibhits similar behavioural biases than humans
+- <!-- .element class="fragment" --> turns out we have such an AI: GPT-3
+- <!-- .element class="fragment" --> your task:
+  - assemble a 5 members max team
+  - brainstorm about a creative way to study GPT-3 behaviour
+    - choose any angle you want
+  - think about an experimental protocol
+  - carry it on if you can
+  - present it as if it was a research project
+
+---
 ## Final Word
 
 *It's good to follow your own bias as long as it is climbing it.*
