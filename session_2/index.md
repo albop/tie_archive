@@ -1,6 +1,7 @@
 # AI Biases vs Human Biases
 
-## Topics in Economics
+### Pablo Winant, ESCP Business School
+
 
 <style>
 .container{
@@ -47,13 +48,13 @@
 
 ----
 
-## Actually it doesn't matter
+## What is a decision
 
 - Several seemingly different cases:
   - recommendation
   - decision with immediate consequences
   - a part of a decision process
-- They are not so clearly separable
+- These cases are not so clearly separable
 - Precise agency is not important here
 - We'll call of these "decisions"
   - (alternatives: "predictions"/"choices"/...)
@@ -95,7 +96,7 @@ In particular, we'll draw parallels, between AI decisions and human decisions
 - biases from a quantitative/statistical approach
 - the problem of preference misspecification
 - behavioural mistakes
-- homework, talk about your project
+- homework, talk about your classwork
 
 ---
 
@@ -110,17 +111,25 @@ __Bias__:  systematic error made by a a statistical algorithm producing a predic
 
 Here, *systematic* means, *in average*. (more precisely, in expectation w.r.t to all the sources of randomness).
 
-Exemple: TODO
-
 ----
 
+### Example: WEO forecast
+
+Here is the forecast from the latest World Economic Outlook (IMF)
+
+![](./weo_forecast.png)
+
+Is it biased?
+
+----
+<!-- 
 ## Bias vs variance
 
 An algorithm can be always wrong, but not biased. In this case it is said to have high "variance".
 
 In general there is an arbitrage between low bias and low variance.
 
-----
+---- -->
 
 ## Sources of biases
 
@@ -137,7 +146,47 @@ In general there is an arbitrage between low bias and low variance.
 
 ----
 
-## How do we measure it ?
+### Image labelling
+
+An AI or you needs to label best describe the following image:
+
+<div class="container">
+<div class="col">
+
+![](red_watermelon.jpg)
+
+- fruit
+- watermelon
+- watermelon slices
+- juicy
+- <!-- .element: class="fragment" data-fragment-index="1" --> red
+
+</div>
+<div class="col">
+
+<div class="fragment" data-fragment-index="2">
+
+<img src="yellow_watermelon.jpg" width="60%">
+
+</div>
+
+<div class="fragment" data-fragment-index="3">
+
+Obviously, the way the AI (or you) makes category, depends on the dataset it has been exposed to.
+
+- Experience/learning produces a __prototype__ of a watermelon (i.e. an object representative of its class)
+- When a __prototype__ is not representative of some data it becomes a __stereotype__
+  - it creates __bias__
+
+
+</div>
+
+</div>
+
+
+----
+
+### How do we measure it ?
 
 - Sometimes bias is easy to measure with
   - precise criterium (e.g. no discrimination)
@@ -165,67 +214,105 @@ In general there is an arbitrage between low bias and low variance.
 
 ----
 
-## Sometimes the AI is just as smart as Humans
+## An example of a failed anti-discrimination policy
 
-Initial situation: Bob recruits new hires himself
-- he's got prejudice against: single women, obese men, non christian workers, ...
-- he drops CV based on:
-  - photographs
-  - names
+- Initial situation: Bob recruits new hires himself
+  - he's got prejudice against: single women, obese men, non christian workers, ...
+  - he drops unwanted CVs based on:
+    - photographs
+    - names
+- <!-- .element: class="fragment" --> New situation: Bob uses machine learning to select candidates who get an interview
+  - task of ML: reject 95% of candidates
+  - objective: maximize probability of that selected candidates get the job after their interview
+  - diversity requirement: don't use name, gender and photo
+- <!-- .element: class="fragment" --> Result: after a few iterations, algorithm selects only young white candidates with christian names
 
-New situation: Bob uses machine learning to select candidates who get an interview
-- task of ML: reject 95% of candidates
-- objective: maximize probability of acceptance
-- diversity requirement: don't use name, gender and photo
 
-Result: after a few iterations, algorithm selects only young white candidates with christian names
-
-What happened? [TODO: image of CV]
-Algorithm has learned bias of user, and made it more efficient.
-
-----
-
-### Famous example
-
-[image of woman in chess club]
-amazon 2018, algo was biased against women and penalized "women’s,” as in “women’s chess club captain.” 
+<div class="fragment">What happened?</div>
+<div class="fragment">Algorithm has learned bias of user, and made it more efficient.</div>
 
 ----
 
+### Famous example: Amazon
 
-### Another Example: do you want to be treated by an AI?
+[Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G) 11/10/2018: Amazon scraps secret AI recruiting tool that showed bias against women
 
-[TODO] First column
+<img src="amazon_spheres.jpg" width="20%" class="fragment" data-fragment-index="1">
+<img src="judith_polgar.jpg" width="20%"  class="fragment" data-fragment-index="3">
 
-Example AI application for medecine:
+- What happened?
+  - <!-- .element class="fragment"  data-fragment-index="1"--> Amazon started to train (use?) internally a ML algo to preselect CVs and counteract human biases
+  - <!-- .element class="fragment"  data-fragment-index="2" --> Algorithm started to discriminate against woman
+  - <!-- .element class="fragment"  data-fragment-index="3" --> Sentences containing strings like "women's" were discriminated against (like "champion of women's chess cup")
+
+----
+
+
+### Example: do you want to be treated by an AI?
+
+
+[Nature, 25/01/2017](https://www.nature.com/articles/nature21056): Dermatologist-level classification of skin cancer with deep neural networks
+
+<div class="container">
+<div class="col">
+
+![](skin_cancer.jpg)
+
+</div>
+<div class="col">
+
 - analyze skin images to recognize malignant melanoma
-- more efficient than humans (or much more cost-effective)
-- problem: [TODO]
+- as good as human dermatologists
+  - [TODO] add figures
+- more cost-effective (can work on a smartphone)
 
-[TODO] Second column
-
-Switzerland: dentist treatment
-
-----
-
-
-### Another Example: do you want to be treated by an AI?
-
-[TODO] First column
-
-- AI to prevent heart attacks (5 years in advance)
-- bias: male, regions with higher income
-
-[TODO] Second column
-
-- If you arrive at the hospital with a heart disease
-- chances to survive higher if same sex
+</div>
 
 ----
 
-### Are Humans Immune to Selection Biases
+### Example:or do you prefer to be treated by a Hu(man) ? (1)
 
-How would you label watermelons (red/yellow)
+
+__Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, Weibel)
+
+- The same "test patient" was sent to 180 dentists who offered treatment recommendation and cost estimate.
+- Test patient did not need treatment (caries lesions limited to enamel).
+- 28% of practitioners made a wrong treatment recommendation
+- What were the determinants of the bias?
+  - Social Economic Status (-)
+  - Lower Waiting Time
+  
+----
+
+### Example:or do you prefer to be treated by a Hu(man) ? (2)
+
+<div class="container" >
+<div class="col">
+
+
+*Perceived Risk of Heart Attack: A Function of Gender?* 2004, (Leanne L Lefler)
+- mortality rate for women in the year immediately after suffering a heart attack was 38%, compared to 25% for men
+  - woman delay assistance seeking (it's a men problem)?
+
+</div>
+
+<div class="col">
+
+
+
+*Patient–physician gender concordance and increased mortality among female heart attack patients* (Greenwood, Carnahan, Huang)
+- higher probability of survival when same-sex doctor
+- driven by treatment from male doctors (the majority of cardiologists)
+
+<img src="gender_match.jpg" width="60%">
+
+</div>
+
+----
+
+### Hungry Judge Effect
+
+...
 
 ----
 
@@ -234,7 +321,12 @@ How would you label watermelons (red/yellow)
 - AI can reproduce human biases
   - in the way algorithm is designed
   - if it immitates human or if its objective incorporates human bias
+- AI's don't have all human biases
+  - no hungry judge effect
+  - no funding cost (or do they?)
 - Humans also suffer from many of the same biases as machines
+- Machines have some advantages
+  - efficiency
 
 ---
 
@@ -275,6 +367,36 @@ There are unsaid, unconscious, objectives
 - famous scifi example
 - consumption maximization
 - AI objective misspecification
+
+----
+
+### Evolutionary Bias
+
+- Under some circumstances, taking bias decisions can provide a survival advantage
+  - treat unknown species as "hostile"
+- Limit processing cost
+
+----
+
+### An example of "trimming"
+
+![](face_recognition.png)
+
+
+
+
+----
+
+### Provide learning advantage
+
+Why do newer movies have better ratings than older ones on movie databases (like Allocine)
+And why is the website not doing anything about it?
+
+
+----
+
+
+
 
 ----
 
