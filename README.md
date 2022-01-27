@@ -11,4 +11,4 @@ Tentative schedule
 | 14/02 | Cryptocurrencies (tbc)                                  | tbc  |
 | 28/02 |  Are GAFAM too powerful?                           | Pierre Fleckinger       |
 | 07/03 |  Game Theory vs Theory of Games (tbc)                   |                         |
-| 07/03 |  Final Session / Exam                              |                         |
+| 14/03 |  Final Session / Exam                              |                         |
