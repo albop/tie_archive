@@ -14,7 +14,7 @@
 
 ----
 
-## What's happening
+### What's happening
 
 <div class="container">
 
@@ -39,7 +39,7 @@
 
 ----
 
-## What can the CB do?
+### What can the CB do?
 
 
 <div class="container">
@@ -67,7 +67,7 @@
 
 ----
 
-## Today
+### Today
 
 - review the main evolutions of the crypto-sphere
 - call an expert about the ways to regulate cryptocurrencies
@@ -76,10 +76,11 @@
 
 ---
 
-# Bitcoins
+## Bitcoin
 
+----
 
-## Is Bitcoin Money?
+### Is Bitcoin Money?
 
 The traditional functions of money are:
 - a medium of exchange
@@ -91,26 +92,23 @@ How do they apply to Bitcoin?
 ----
 
 
-## Is Bitcoin a Medium of Exchange?
-
-[photo coffee]
+### Is Bitcoin a Medium of Exchange?
 
 It is now possible to buy some goods with Bitcoins (Tesla, Walmart, Some Coffee Shops)
 
-But look at the transaction costs...
+But look at the transaction fees...
 And the transaction delays: >10 min
+
+<img src="fees.png" width=60%>
 
 ----
 
 
 ## Is it a unit of Account?
 
-[photo coffee]
+![](coffee.jpg)
 
-It is now possible to buy some goods with Bitcoins (Tesla, Walmart, Some Coffee Shops)
-
-But look at the transaction costs...
-And the transaction delays: >10 min
+Not yet.
 
 ----
 
@@ -174,15 +172,12 @@ Nowadays, there is a continuum between assets and money (e.g. quasi-money, money
 
 ## The blockchain
 
-Blockchain is also called "distributed ledger"
-
-It keeps a record of all transactions between each "node"
-- this record is unfakable and unmutable
-
-Who keeps this record?
-- special participants called miners
-
-The system is based on cryptographic principles
+- Blockchain is also called "distributed ledger"
+- It keeps a record of all transactions between each "node"
+  - this record is unfakable and unmutable
+- Who keeps this record?
+  - special participants called miners
+- The system is based on cryptographic principles which allow to certify operations
 
 ----
 
@@ -190,7 +185,6 @@ The system is based on cryptographic principles
 
 How does it work?
 
-...not a chance
 
 ----
 
@@ -202,7 +196,7 @@ How does it work?
   - Transactions are recorded in blocks, linked to each other
   - The full blockchain is stored on all nodes (currently 324GB!)
   - Any node can explore the blockchain to check that a transaction between A and B has taken place
-  - Transaction can be verified by querying other nodes
+  - Transaction can be verified by looking up in the history
 - Miners
   - New blocks with new transactions are added by miners
   - Miners essentially maintain the blockchain
@@ -214,7 +208,7 @@ How does it work?
 
 ### The cost of transactions
 
-We have seen that performing a bitcoin transaction directly is expensive (between 1.78! and 62$ !)
+We have seen that performing a bitcoin transaction directly is expensive (between 1.78$! and 62$ !)
 - It is interesting to note that this is a market equilibrum:
   - users can choose their fee
   - their waiting time depends on the willingness of miners to record the transaction
@@ -224,8 +218,9 @@ We have seen that performing a bitcoin transaction directly is expensive (betwee
 
 ### The cost of transactions (2)
 
-- A whole industry has evolved to mine bitcoins
-  - [TODO]: give some statistics
+A whole industry has evolved to mine bitcoins
+
+<img src="gpus.png" width=60%>
 
 ----
 
@@ -244,6 +239,8 @@ We have seen that performing a bitcoin transaction directly is expensive (betwee
 
 ### Other cryptocurrencies
 
+![](cryptos.png)
+
 ---
 
 
@@ -253,30 +250,15 @@ We have seen that performing a bitcoin transaction directly is expensive (betwee
 
 ## Generalisation of the Blockchain
 
-[TODO]: improve explanation
-
-A system that can record and authenticate transactions can be used to perform many other things than currency
-- instead of currency, interest bearing instrument
-
-Currency, debt instruments are fungible tokens (no difference between one bitcoin and another)
-
-But blockchains are increasingly being used to exchange non fungible tokens.
-An NFT, is a property title on a unique asset.
-- TODO: diamond, digital key
-
-Then this title can be resold and it is possible to find out who owns its.
-
-Note that the conversion of the title into an actual object/service is still the responsibility of the issuer.
-- it works best in the real world
-
-----
-
-### Cf worthless paper
-
-....
-
-Strangely enough, the possibility to certify ownership and authenticity has been there in a while.
-It can be implemented with a central authority.
+- A system that can record and authenticate transactions can be used to perform many other things than currency
+  - instead of currency, interest bearing instrument
+- Currency, debt instruments are fungible tokens (no difference between one bitcoin and another)
+- But blockchains are increasingly being used to exchange non fungible tokens.
+  - An NFT is a property title on a unique asset.
+  - diamond, digital key, immmaterial goods (Sorare, )
+- Then this title can be resold and it is possible to find out who owns its.
+- Note that the conversion of the title into an actual object/service is still the responsibility of the issuer.
+  - it works best in the virtual world
 
 ----
 
@@ -289,7 +271,7 @@ It can be implemented with a central authority.
 - It makes it possible to perform operations (not only property checks)
 - There is an incentive scheme to compensate for the needed computations with Ethereum currency (Ether)   
 
----
+----
 
 ## Smart Contracts (2)
 
@@ -328,7 +310,7 @@ There is a difference though:
 - They are especially useful to convert returns in crypto currencies to real currencies
 - How do you control the value of a currency? Two possibilities:
   - intervene on the market by selling / buying the currency
-  - changing the amount of currency 
+  - change the amount of currency ...
   - or its intrinsic value  (debase, reevalue)
     - (fix the conversion rate of the stablecoin with another crypto asset)
 - All are famous practices of central banks!
@@ -338,13 +320,8 @@ There is a difference though:
 
 ----
 
-## Stable Coins
+### Remark
 
-
-
-----
-
-## Remark
 
 -  The weak point is always the link to the real economy:
   - conversion to dollars
@@ -352,21 +329,17 @@ There is a difference though:
   - real goods supply
 - These points of contact are still governed by real world contracts and trust
 - The more contracts happen on the blockchain, the more trustable the system is...
-- ... as long as you trust the blockchain!
+- ...as long as you trust the blockchain!
 
-----
-
-
+---
 
 ## Central Bank Digital Currency
 
-
 ----
-
 
 ### Why do the Central Bank want to create their own digital currency?
 
-- Most Central Banks (80%) are investigating emitting their own Digital Currency (CBDC)
+- Most Central Banks (80%) are investigating the feasibility of emitting their own Digital Currency (CBDC)
   - sometimes based on a distributed ledger (blockchain)
   - but mostly without (central certificaiton authority)
 - Main reasons:
@@ -376,7 +349,6 @@ There is a difference though:
 - Major unkonwn:
   - it is not clear what form it would take: token, account, who would have access
   - the impact of CBDC's on the economy/financial market is still unknown
-
 
 ----
 
@@ -395,14 +367,13 @@ In all cases, the digital currency would have legal tender.
 
 [Digital euro](https://www.ecb.europa.eu/paym/digital_euro/html/index.en.html): "accessible to everyone"
 
-Token CBDC is a new equivalent of cash.
-- it can be used for exchange
-- stored anywhere (for instance a wallet, a website, ...)
-- it respects privacy better (of owners, not transactions)
-
-Account CBDC basically replaces deposits
-- individuals/entities have an account at the central bank
-- payments consists in transferring money from one account to another
+- Token CBDC is a new equivalent of cash.
+  - it can be used for exchange
+  - stored anywhere (for instance a wallet, a website, ...)
+  - it respects privacy better (of owners, not transactions)  
+- Account CBDC basically replaces deposits
+  - individuals/entities have an account at the central bank
+  - payments consists in transferring money from one account to another
 
 ----
 
@@ -418,7 +389,7 @@ Account CBDC basically replaces deposits
 
 ----
 
-### Would CBDC would replace crypto-currencies?
+### Would CBDC  replace crypto-currencies?
 
 By design a CBDC would outperform all cryptocurrencies on all functions of money:
 - transaction costs: would be essentially free and instant
@@ -426,6 +397,10 @@ By design a CBDC would outperform all cryptocurrencies on all functions of money
 - accounting unit: because it would have legal tender
 - store of value: as long as the central bank has a good reputation
   - note that the situation might be different in emerging countries
+
+----
+
+### Would CBDC  replace crypto-currencies?
 
 One could still see some advantages in using cryptos instead
 - one could use inflation-immune or interest bearing cash
@@ -440,6 +415,7 @@ Some of these advantages could be obtained with a blockchain on top of the CBDC
 ### Implementation of monetary policies
 
 As we have already noted, using a digital currency would make it easier for the central bank to conduct monetary policy:
+
 - it could perform implement helicopter drops easily in a non distortionary way
   - just increase the amount on all bank accounts at the Central Bank
 - if CBDC is bearing an interest it could change it as a way to direcly influence consumption/savings incentives
@@ -473,32 +449,3 @@ As we have already noted, using a digital currency would make it easier for the 
 
 ----
 
-
-### Appendix
-
-----
-
----
-
-## Can there be several currencies?
-
-parallel money
-usual consensus: no
-  - after european integration
-  - after german integration (didn't keep ostmark)
-
-in Greece:
-  quasi-money can be created by the government: IOU
-  cryptocurrency (proposed by Ianis Varoufakis)
-in California 2009
-in France: assignat
-Cuba, dual system
-
-micro-currencies:
-  in France, Basque region (Eusko). Overall 60 micro-currencies
-
-trade currencies
-
-
-----
-Gresham's law
