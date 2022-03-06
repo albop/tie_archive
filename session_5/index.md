@@ -142,13 +142,13 @@ Not yet.
 
 Bitcoin is definitely not a traditional currency. Some economists prefer to call Bitcoin a crypto-asset. 
 
-Maybe traditional functions of money might not be so useful. Think about whether cash satisfies the criteria
+Maybe the "traditional functions" of money might not be so useful categories. Think about whether *cash* satisfies the criteria
 - a medium of exchange
   - but is cash a good medium of exchange (have you taken the taxi recently?)
 - a store of value
   - right now, inflation is 5% in the Eurozone
 - a unit of account
-  - is that so important for smartphone assisted humans ?
+  - is that so important for smartphone assisted humans?
 
 Imho, these definitions are perfectly adequate for economic anthropology: they explain best how we came out of the barter economy.
 
@@ -158,15 +158,15 @@ Nowadays, there is a continuum between assets and money (e.g. quasi-money, money
 
 ## Why is Bitcoin so valued then?
 
-
 - Its decentralized nature makes it independent from individual currencies
   - easy international transactions
 - It is independent from states and banks
   - a dream for libertarians
+  - a way to escape totalitarian states
 - An ounce of technophilia
 - The fact that other investors value it
   - that's pretty much the definition of a bubble
-  - but bitcoin is actually used as underlying assets for other cryptos (with faster and cheaper transaction costs)
+  - but bitcoin is actually used as underlying assets for other cryptos (which have faster and cheaper transaction costs)
 
 ----
 
@@ -181,12 +181,6 @@ Nowadays, there is a continuum between assets and money (e.g. quasi-money, money
 
 ----
 
-## The Miners
-
-How does it work?
-
-
-----
 
 ## The Miners
 
@@ -198,21 +192,21 @@ How does it work?
   - Any node can explore the blockchain to check that a transaction between A and B has taken place
   - Transaction can be verified by looking up in the history
 - Miners
-  - New blocks with new transactions are added by miners
+  - New blocks containing new transactions are added by miners
   - Miners essentially maintain the blockchain
   - They charge a fee to create new transactions
   - And are incentivized by some probability of mining a new bitcoin (currently 6.25 per block)
-  - This process requires hard computational work. This is required to keep the currency supply limited.
+  - This process requires hard computational work. It is required to keep the currency supply limited.
 
 ----
 
 ### The cost of transactions
 
-We have seen that performing a bitcoin transaction directly is expensive (between 1.78$! and 62$ !)
-- It is interesting to note that this is a market equilibrum:
+We have seen that performing a bitcoin transaction is expensive (between 1.78$! and 62$ !)
+- Note that this is a market equilibrum:
   - users can choose their fee
   - their waiting time depends on the willingness of miners to record the transaction
-- Somehow this measures the value of the transaction motive
+- Somehow the price of transactions measures the value of the transaction motive
 
 ----
 
@@ -226,14 +220,14 @@ A whole industry has evolved to mine bitcoins
 
 ### From the Bitcoin to a Banking System
 
-- Since transactions can't be done by individuals easily users use custodial Wallets
+- Since transactions can't easily be done by individuals users use custodial Wallets
 - A custodial Wallet is a notional account provided by an intermediary
   - it represents ownership of some bitcoins
 - When transactions are made between several wallet users
-  - no actualy bitcoin payment is made
+  - no actual bitcoin payment is made
   - only the notional values by the intermediary are changed
 - When transactions involve several firms, only net flows need to be executed
-- Wait, that sounds a lot like a bank !
+- Wait, that sounds a lot like a bank!
 
 ----
 
@@ -256,7 +250,7 @@ A whole industry has evolved to mine bitcoins
 - But blockchains are increasingly being used to exchange non fungible tokens.
   - An NFT is a property title on a unique asset.
   - diamond, digital key, immmaterial goods (Sorare, )
-- Then this title can be resold and it is possible to find out who owns its.
+- Then this title can be resold and it is possible to find out who owns it.
 - Note that the conversion of the title into an actual object/service is still the responsibility of the issuer.
   - it works best in the virtual world
 
@@ -264,8 +258,8 @@ A whole industry has evolved to mine bitcoins
 
 ## Smart Contracts
 
-- Relying on computational power to power the blockchain allows for more advanced operations.
-- Some platforms allow to execute programs on the blockchain.
+- Relying on computational power to implement the blockchain allows for more advanced operations.
+- Some platforms permit the execution of programs on the blockchain.
   - these are called smart contracts
 - Most famous smart contract platform is Ethereum
 - It makes it possible to perform operations (not only property checks)
@@ -299,7 +293,7 @@ Imagine the same with automatic execution algorithms on Ethereum...
 There is a difference though:
 - for traditionnal assets, guarantees are given by contracts (and law)
 - for a smart contract, it is by algorithm design
-  - in that sense, it is to create crypto-assets that are safe, by design
+  - in that sense, it permits the creation of crypto-assets that are safe, by design
   - ... as long as everything remains on the blockchain (collateral, margin calls, etc...)
 
 ----
