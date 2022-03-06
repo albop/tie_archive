@@ -33,7 +33,7 @@ jobs:
         run: npm install decktape
 
       - name: Create "/slides" directory
-        run: mkdir slides && sudo chmod 777 slides
+        run: mkdir -p slides && sudo chmod 777 slides
 
       - name: Run Decktape
         run: node_modules/.bin/decktape reveal index.html slides/index.pdf --chrome-arg=--allow-file-access-from-files
