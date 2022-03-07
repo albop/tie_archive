@@ -304,7 +304,7 @@ There is a difference though:
 - They are especially useful to convert returns in crypto currencies to real currencies
 - How do you control the value of a currency? Two possibilities:
   - intervene on the market by selling / buying the currency
-  - change the amount of currency ...
+  - change the circulating amount of currency ...
   - or its intrinsic value  (debase, reevalue)
     - (fix the conversion rate of the stablecoin with another crypto asset)
 - All are famous practices of central banks!
@@ -335,13 +335,14 @@ There is a difference though:
 
 - Most Central Banks (80%) are investigating the feasibility of emitting their own Digital Currency (CBDC)
   - sometimes based on a distributed ledger (blockchain)
-  - but mostly without (central certificaiton authority)
+  - but mostly without (CB becomes central certificate provider)
 - Main reasons:
   - it would replace crypto-currencies and reduce their systemic risk
   - it would reduce the number of fraudulent operations and increase tax revenues
   - it would ease the implementation of monetary policies more efficient
 - Major unkonwn:
-  - it is not clear what form it would take: token, account, who would have access
+  - it is not clear what form it would take: token, account
+  - who would have access
   - the impact of CBDC's on the economy/financial market is still unknown
 
 ----
@@ -357,14 +358,14 @@ In all cases, the digital currency would have legal tender.
 
 ----
 
-### Several kinds of CBDC: token based
+### Several kinds of CBDC: token based or account based
 
 [Digital euro](https://www.ecb.europa.eu/paym/digital_euro/html/index.en.html): "accessible to everyone"
 
 - Token CBDC is a new equivalent of cash.
   - it can be used for exchange
   - stored anywhere (for instance a wallet, a website, ...)
-  - it respects privacy better (of owners, not transactions)  
+  - it respects privacy better (of owners, not of transactions)  
 - Account CBDC basically replaces deposits
   - individuals/entities have an account at the central bank
   - payments consists in transferring money from one account to another
@@ -416,27 +417,30 @@ As we have already noted, using a digital currency would make it easier for the 
 
 ----
 
-### What becomes of the financial sector?
+### What would the financial sector become?
 
 - If you can have a bank account at the CB, or a wallet with digital currency, why would you open a current account and make deposits?
   - current accounts charge high fees, transfers are sometimes slow, etc.
 - There is little doubt bank accounts as we know them would disappear...
-- retail banking activites would be split into several services
+- retail banking activities would be split into several services
+  - lending
+  - insurance
+  - ...
 
 ----
 
-### What becomes of the financial sector?
+### What would the financial sector become?
 
-- ... and with it the current model of commercial banks which take short term deposits to invest in longer term projects
+- ... and with it the current model of commercial banks which take short term deposits to invest in longer term projects would disappear
 - Then these projects would have to be
   - financed by the CB or
   - financed through equity and investment bank
-- Without current accounts, commercial banks wouldn't be able to create money and the fractional reserves system would be obsolete
-  - money creation would become again a monopoly of the central bank
+- Without current accounts, commercial banks wouldn't be able to create money and current system of fractional reserves system would need to be revisited
+  - *money creation* would become again a monopoly of the central bank
 
 ----
 
-### What becomes of the financial sector?
+### What would the financial sector become?
 
 - So far, the experiments made by the CB and BIS, have pledged to "do no-harm" (to the financial sector)
 - But once everybody uses the digital asset, nobody wants the cash and deposits anymore
