@@ -437,13 +437,22 @@ As we have already noted, using a digital currency would make it easier for the 
   - financed through equity and investment bank
 - Without current accounts, commercial banks wouldn't be able to create money and current system of fractional reserves system would need to be revisited
   - *money creation* would become again a monopoly of the central bank
+  - this was the original Chicago Plan (100% reserves banking, a.k.a. narrow banking)
 
 ----
 
-### What would the financial sector become?
+### Conclusion: What will the financial sector become?
 
-- So far, the experiments made by the CB and BIS, have pledged to "do no-harm" (to the financial sector)
+- No idea
+- So far, the experiments made by the ECB and BIS, have pledged to "do no-harm" (to the financial sector)
 - But once everybody uses the digital asset, nobody wants the cash and deposits anymore
+  - all players will be forced to adjust
+- The new equilibrium will depend heavily on:
+  - the kind of CDBC
+  - how commercial banks adjust
+  - the regulations on the crypto assets
+    - In particular, even if the central bank has monopoly of money issueance, it could let some fractional banking go on.
+
 
 ----
 
