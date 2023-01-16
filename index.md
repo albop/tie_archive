@@ -45,15 +45,26 @@
 
 ## This course
 
-- Approach economic topics from different angles
 - Start with hot topics
-  - e.g. AI, production chain, carbon tax
+  - e.g. ChatGPT, job market, ecological transition, ...
 - Connect with economic fields and theories
+  - they appear in __bold__
+  - make sure you understand their meaning
 - Try to think outside of the box
-- Evaluation (to be precised and confirmed)
-  - mini-projects (in <=5 groups)
-  - work of synthesis (individual)
-  - reasoning and imagination will be rewarded
+
+---
+
+## Logistics
+
+- Evaluation
+  - group work (70%)
+    - record a 5 min video developing one particular point of the course
+  - final exam (in-class) (30%)
+    - mcq on __econ concepts__
+    - very short essay based on documents
+  - ongoing (up to 20% bonus/malus)
+    - participation & behaviour
+    - mini-tasks
 
 ---
 
@@ -73,7 +84,7 @@ __American Economic Association__: It can be defined in different ways. It’s t
 
 <div .element: class="fragment" data-fragment-index="3" --> 
 
-__Redux__: people's decisions and interactions
+__Definitions (Redux)__: people's decisions and interactions
 
 </div>
 
@@ -82,3 +93,9 @@ __Redux__: people's decisions and interactions
 Check AEA  [website](https://www.aeaweb.org/resources/students/what-is-economics) and [research highlights](https://www.aeaweb.org/research) for many examples of economic applications.
 
 </div>
+
+---
+
+![](ea0.jpg)
+
+[To Session 1](session_1/index.html)
