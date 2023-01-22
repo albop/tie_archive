@@ -1,3 +1,27 @@
+## Warmup
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cda97e950988200b23bd80" width="100%" class="stretch"></iframe>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdad518f81e8b5131ed34b" width="100%" class="stretch"></iframe>
+
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdafd7d0c8143c62433886" width="100%" class="stretch"></iframe>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdaffc1a7764faade6ae03" width="100%" class="stretch"></iframe>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdb0268f81e8b5131ed914" width="100%" class="stretch"></iframe>
+
+---
+
+
 # AI Biases vs Human Biases
 
 ### Pablo Winant, ESCP Business School
@@ -57,8 +81,14 @@ lacks context (meta heuristics, ability to disobey)
   - a part of a decision process
 - These cases are not so clearly separable
 - Precise agency is not important here
-- We'll call of these "decisions"
+- We'll call  of these "decisions"
   - (alternatives: "predictions"/"choices"/...)
+
+----
+
+Cassie Kozyrkov, chief decision scientist from Google: 
+
+*We define the word “decision” to mean any selection between options by any entity, so the conversation is broader than MBA-style dilemmas (like whether to open a branch of your business in London).*
 
 ----
 
@@ -90,13 +120,17 @@ The decision sciences concern themselves with questions like:
 
 ## Today
 
+[TODO]
+
 We'll consider different ways to analyse AI behaviour from an economic perspective.
+
 In particular, we'll draw parallels, between AI decisions and human decisions
 
-- biases from a quantitative/statistical approach
-- the problem of preference misspecification
-- behavioural mistakes (not today)
-- homework, talk about your classwork
+- predictive bias:
+  - TODO: definition
+  - biases from a quantitative/statistical approach
+- preference misspecification
+- behavioural bias (next week)
 
 ---
 
@@ -115,9 +149,9 @@ Here, *systematic* means, *in average*. (more precisely, in expectation w.r.t to
 
 ### Example: WEO forecast
 
-Here is the forecast from the latest World Economic Outlook (IMF)
+Here is the history of IMF forecasts (form WEO 2017)
 
-![](./weo_forecast.png)
+<img src="./imf_gdp_forecasts.webp" class="flex">
 
 Is it biased?
 
@@ -346,7 +380,7 @@ Was the collective decision of leaving the UK biased, based on available evidenc
 
 - AI objective misspecification
   - famous scifi examples: Asimov's robots, the smiling man, ...
-  - example: intertemporal consumption maximization
+  - example: intertemporal consumption maximization TODO: WTF?
 
 ----
 
@@ -433,29 +467,6 @@ Was the collective decision of leaving the UK biased, based on available evidenc
 - The presence of several objectives complicates the pictures
   - for humans
   - and AIs
-
----
-
-
-## Your Project
-
-----
-
-### Coursework proposition
-
-- a big advantage of AIs is that they can be tested easily
-- <!-- .element class="fragment" --> if we had access to a general purpose AI, we could design experiments in order to test:
-  - what are its revealed preferences (consistent, risk averse, irrational)
-  - what biases it has
-  - whether it exibhits similar behavioural biases than humans
-- <!-- .element class="fragment" --> turns out we have such an AI: GPT-3
-- <!-- .element class="fragment" --> your task:
-  - assemble a 5 members max team
-  - brainstorm about a creative way to study GPT-3 behaviour
-    - choose any angle you want
-  - think about an experimental protocol
-  - carry it on if you can
-  - present it as if it was a research project
 
 ---
 
