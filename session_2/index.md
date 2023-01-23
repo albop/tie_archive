@@ -38,13 +38,19 @@
 
 ----
 
+
+
+----
+
 ## A small question
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63ce7bfee77a800d2e7a9c50" width="100%" ></iframe> 
 
 - Are you ready to be driven by an AI-driven car, 5 years from now?
 - <!-- .element class="fragment" --> Info about car accidents (today)
   - AI: 9 crashes per million mile
   - human: 4 crashes per million mile
-  - but almost not major injury in AI driven cars
+  - but almost not majo injury in AI driven cars
 - <!-- .element class="fragment" --> AIs are easy to fool
   - incorrect reading of traffic signs with small modifications
   - see [nature]( https://www.nature.com/articles/d41586-019-03013-5)
@@ -88,17 +94,22 @@ lacks context (meta heuristics, ability to disobey)
 
 Cassie Kozyrkov, chief decision scientist from Google: 
 
-*We define the word “decision” to mean any selection between options by any entity, so the conversation is broader than MBA-style dilemmas (like whether to open a branch of your business in London).*
+*We define the word “decision” to mean any selection between options by any entity*
 
 ----
 
 ## Decision Intelligence
 
+- Who studies AI decisions?
 - A new emerging field: "Decision Intelligence"
-- Defines intelligence as
+- Defines "decisions" as
   - a choice of an "output" from a set of "input"
   - choice is irreversible
 - Relates data-science with different fields
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdb4ed10e81389e20790f6" width="100%" class="stretch"></iframe>
 
 ----
 
@@ -116,54 +127,53 @@ The decision sciences concern themselves with questions like:
 - “Who will experience the consequences of the decision and how will various groups perceive that experience?” (UX Research)
 - “Is the decision objective ethical?” (Philosophy)
 
+
 ----
 
-## Today
+### The specificities of an economic approach
 
-[TODO]
+- Consider different ways to analyse AI behaviour from an economic perspective (*people's decisions*)
+  - deviations from rationality
+  - specification of a precise objective
 
-We'll consider different ways to analyse AI behaviour from an economic perspective.
+<img src="lucifer.jpg" class="fragment">
 
-In particular, we'll draw parallels, between AI decisions and human decisions
 
-- predictive bias:
-  - TODO: definition
-  - biases from a quantitative/statistical approach
-- preference misspecification
+----
+
+## Three kinds of bias
+
+- predictive bias
+  - ... we know what want but are doing it wrong
+- preference bias
+  - ...we're wrong about the ultimate objective
 - behavioural bias (next week)
+  - ...we're doing it wrong
 
 ---
 
-
-## Quantitative Bias
+## Prediction Bias
 
 ----
 
 ## Definition of Statistical Bias
 
-__Bias__:  systematic error made by a a statistical algorithm producing a prediction
+__Prediction Bias__:  systematic error made by an algorithm producing a prediction
 
-Here, *systematic* means, *in average*. (more precisely, in expectation w.r.t to all the sources of randomness).
-
-----
-
-### Example: WEO forecast
-
-Here is the history of IMF forecasts (form WEO 2017)
-
-<img src="./imf_gdp_forecasts.webp" class="flex">
-
-Is it biased?
+  - Here, *systematic* must be understood as *in average* or *in expectation*
 
 ----
 
-## Sources of biases
+
+
+## Sources of prediction biases
 
 - Problems with the data (*data-driven*)
-  - __Selection bias__ / attrition biases
+  - __selection bias__ 
+  - __attrition bias__
   - ...
 - Problems with the model (*algorithmic bias*)
-  - Ommitted variable bias
+  - __ommitted variable bias__
   - ...
 - Other sources (essentially *human bias*)
   - funding bias
@@ -175,41 +185,25 @@ Is it biased?
 
 ### Image labelling
 
-An AI or you needs to label best describe the following image:
+An AI or you must choose labels to best describe this image:
 
-<div class="container">
-<div class="col">
+<img src="red_watermelon.jpg" width=60%>
 
-![](red_watermelon.jpg)
+----
 
-- fruit
-- watermelon
-- watermelon slices
-- juicy
-- <!-- .element: class="fragment" data-fragment-index="1" --> red
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63ce4d520cad4779b377e9fe" width="100%"></iframe>
 
-</div>
-<div class="col">
+----
 
-<div class="fragment" data-fragment-index="2">
+### An example of a selection bias
 
 <img src="yellow_watermelon.jpg" width="60%">
-
-</div>
-
-<div class="fragment" data-fragment-index="3">
 
 Obviously, the way the AI (or you) makes category, depends on the dataset it has been exposed to.
 
 - Experience/learning produces a __prototype__ of a watermelon (i.e. an object representative of its class)
 - When a __prototype__ is not representative of some data it becomes a __stereotype__
   - it creates __bias__
-
-
-</div>
-
-</div>
-
 
 ----
 
@@ -226,56 +220,10 @@ Obviously, the way the AI (or you) makes category, depends on the dataset it has
 
 ----
 
-## Example of bias
-
-- Job Market
-  - *Job discrimination*: the decision to hire someone at a given salary should not depend on his/her  gender, appearance, social origin, age, ethnicity, ...
-  - *Wage gap*: conversely, the wage gap between people with the same overall productivity should be zero, no matter their gender, appearance, ...
-
-- Big problems:
-  - how do you measure "same overall productivity"?
-  - if you do, how do you find two people with different characteristics and exactly same productivity?
-    - given that in general charecteristics and productivity are linked (for instance, name is correlated with IQ)
-
-- One possibility: look at submitted CVs
-
-----
-
-## An example of a failed anti-discrimination policy
-
-- Initial situation: Bob recruits new hires himself
-  - he's got prejudice against: single women, obese men, non christian workers, ...
-  - he drops unwanted CVs based on:
-    - photographs
-    - names
-- <!-- .element: class="fragment" --> New situation: Bob uses machine learning to select candidates who get an interview
-  - task of ML: reject 95% of candidates
-  - objective: maximize probability of that selected candidates get the job after their interview
-  - diversity requirement: don't use name, gender and photo
-- <!-- .element: class="fragment" --> Result: after a few iterations, algorithm selects only young white candidates with christian names
 
 
-<div class="fragment">What happened?</div>
-<div class="fragment">Algorithm has learned bias of user, and made it more efficient.</div>
 
-----
-
-### Famous example: Amazon
-
-[Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G) 11/10/2018: Amazon scraps secret AI recruiting tool that showed bias against women
-
-<img src="amazon_spheres.jpg" width="20%" class="fragment" data-fragment-index="1">
-<img src="judith_polgar.jpg" width="20%"  class="fragment" data-fragment-index="3">
-
-- What happened?
-  - <!-- .element class="fragment"  data-fragment-index="1"--> Amazon started to train (use?) internally a ML algo to preselect CVs and counteract human biases
-  - <!-- .element class="fragment"  data-fragment-index="2" --> Algorithm started to discriminate against woman
-  - <!-- .element class="fragment"  data-fragment-index="3" --> Sentences containing strings like "women's" were discriminated against (like "champion of women's chess cup")
-
-----
-
-
-### Example: do you want to be treated by an AI?
+### Do you want to be treated by an AI?
 
 
 [Nature, 25/01/2017](https://www.nature.com/articles/nature21056): Dermatologist-level classification of skin cancer with deep neural networks
@@ -296,21 +244,46 @@ Obviously, the way the AI (or you) makes category, depends on the dataset it has
 
 ----
 
-### Example:or do you prefer to be treated by a Hu(man) ? (1)
+### Do you (really) want to be treated by an AI?
 
+[The Lancet, 2022](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00252-1/fulltext): *Characteristics of publicly available skin cancer image
+datasets: a systematic review*
 
-__Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, Weibel)
+- They review 21 open access databases, with skin lesion images
+  - 106 950 images
+  - `Of the two datasets containing data on ethnicity (1585 images in total), 45, 47 no images were from individuals with an African, Afro-Caribbean, or South Asian background`
+  - `Coupled with the geographical origins of datasets, there was massive under-representation of skin lesion images from darker skinned populations.`
+- Conclusion?
+
+----
+
+### Or do you prefer to be treated by a Hu(man) ? (1)
+
+<div class="container">
+<div class="col">
+
+*Health Services As Credence Goods: A Field Experiment* (Gootschalk, Mimra, Weibel)
 
 - <!-- .element class="fragment" -->The same "test patient" was sent to 180 dentists who offered treatment recommendation and cost estimate.
 - <!-- .element class="fragment" -->Test patient did not need treatment (caries lesions limited to enamel).
-- <!-- .element class="fragment" -->28% of practitioners made a wrong treatment recommendation
+- <!-- .element class="fragment" -->28% of practitioners made a wrong treatment recommendation! 😲
 - <!-- .element class="fragment" -->What were the determinants of the bias?
   - Social Economic Status (-)
   - Lower Waiting Time (+)
   
+</div>
+
+<div class="col">
+
+![](ernest.jpg)
+
+</div>
+
+</div>
+
 ----
 
-### Example:or do you prefer to be treated by a Hu(man) ? (2)
+### Or do you prefer to be treated by a Hu(man) ? (2)
 
 <div class="container" >
 <div class="col">
@@ -324,8 +297,6 @@ __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, We
 
 <div class="col">
 
-
-
 *Patient–physician gender concordance and increased mortality among female heart attack patients* (Greenwood, Carnahan, Huang)
 - higher probability of survival when same-sex doctor
 - driven by treatment from male doctors (the majority of cardiologists)
@@ -336,17 +307,128 @@ __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, We
 
 ----
 
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63ce6464ba2b5ba1cc08cff6" width="100%" class="flex"></iframe>
+
+----
+
+## Market bias
+
+- Job Market
+  - *Job discrimination*: the decision to hire someone at a given salary should not depend on his/her  gender, appearance, social origin, age, ethnicity, ...
+  - *Wage gap*: also the wage gap between people with the same overall productivity should be zero, no matter their gender, appearance, ...
+- <!-- .element: class="fragment" -->Big problems:
+  - <!-- .element: class="fragment" -->how do you measure "same overall productivity"?
+    - wrong measurement leads to __ommitted variable bias__
+  - <!-- .element: class="fragment" -->how do you find two people with different characteristics and exactly same productivity?
+    - in general many characteristics are linked with productivity  (for instance, name is correlated with IQ)
+
+----
+
+## A not so-fictive example of a failed anti-discrimination policy
+
+<div class="container">
+
+<div class="col">
+
+<div class="r-stack">
+
+<div class="fragment current-visible">
+
+- Initial situation: Bob recruits new hires himself
+  - he's got prejudice against: single women, obese men, non christian workers, ...
+  - he drops unwanted CVs based on:
+    - photographs
+    - names
+
+</div>
+<div class="fragment current-visible">
+
+-  New situation: Bob uses machine learning to select candidates who get an interview
+    - task of ML: reject 95% of candidates
+    - objective: maximize probability of that selected candidates get the job after their interview
+    - diversity requirement: don't use name, gender and photo
+
+</div>
+<div class="fragment current-visible">
+
+- Result: after a few iterations, algorithm selects only young white, male candidates with christian names
+
+</div>
+
+<div class="fragment current-visible">
+
+- What happened?
+  - Algorithm has learned bias of user
+  - Can reproduce it (with less data!)
+ 
+</div>
+
+</div>
+</div>
+
+<div class="col" width=40%>
+
+<figure>
+  <img src=bobjpg.jpg width=500>
+  <figcaption>Bob from Texas</figcaption>
+</figure>
+
+</div>
+
+</div>
+
+----
+
+### Famous example: Amazon
+
+[Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G) 11/10/2018: Amazon scraps secret AI recruiting tool that showed bias against women
+
+<img src="amazon_spheres.jpg" width="20%" class="fragment" data-fragment-index="1">
+<img src="judith_polgar.jpg" width="20%"  class="fragment" data-fragment-index="3">
+
+- What happened?
+  - <!-- .element class="fragment"  data-fragment-index="1"--> Amazon started to train (use?) internally a ML algo to preselect CVs and counteract human biases
+  - <!-- .element class="fragment"  data-fragment-index="2" --> Algorithm started to discriminate against woman
+  - <!-- .element class="fragment"  data-fragment-index="3" --> Sentences containing strings like "women's" were discriminated against (like "champion of women's chess cup")
+  - <!-- .element class="fragment"  data-fragment-index="3" --> Program was dismantled
+
+----
+
+### Another human bias
+
+- PNAS 2017, *Extraneous factors in judicial decisions*, Danziger, Levav and Avnaim-Pesso 
+  - analyse parole decisions by boards presided by jewish isreali judges
+  -  <!-- .element class="fragment"  -->probability of "parole" falls between the two snack breaks! 😱
+  -  <!-- .element class="fragment"  -->find a strong "hungry judge effect"
+
+![](hungry_judges.png)
+
+----
+
 ### Conclusions
 
+- AI and humans *both* suffer from __selection bias__
 - AI can reproduce human biases
   - in the way algorithm is designed
   - if it immitates humans or if its objective incorporates human bias, conscious or not
 - AI's don't have all human biases
   - no hungry judge effect
   - no funding cost (or do they?)
-- Humans also suffer from many of the same biases as machines
+
+<!-- - Humans also suffer from many of the same biases as machines
 - Machines have some advantages
-  - efficiency
+  - efficiency -->
+
+
+----
+
+### Another example: WEO forecast
+
+Here is the history of IMF forecasts (form WEO 2017)
+
+<img src="./imf_gdp_forecasts.webp" class="flex">
+
+Is it biased?
 
 ---
 
@@ -363,7 +445,7 @@ __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, We
 - This is very close to the implementation of AI now:
   - ML: miniminize empirical risk (sum of square residuals), maximize the fit
   - AI: robots are explicitely told what to do (not how)
-- Biases are precisely defined w.r.t. a well specified goal
+- Biases should be precisely defined w.r.t. a well specified goal
 
 ----
 
@@ -371,25 +453,46 @@ __Health Services As Credence Goods: A Field Experiment__ (Gootschalk, Mimra, We
 
 ![](cliff_divers.jpg)
 
-Was the collective decision of leaving the UK biased, based on available evidence?
+- Was the collective decision of leaving the UK biased, based on available evidence?
 - <!-- .element class="fragment" --> Here, the objective might not be well specified. There are unsaid, unconscious, objectives
 
 ----
 
 ### Examples: AI objective misspecification
 
-- AI objective misspecification
-  - famous scifi examples: Asimov's robots, the smiling man, ...
-  - example: intertemporal consumption maximization TODO: WTF?
+<div class="container">
+
+<div class="col" width=40%>
+
+<img src=singularity.jpg width=30%>
+
+</div>
+
+<div class="col" width=60%>
+
+- AI with the wrong objective is evil
+- Explored a lot in science-fiction
+  - Asimov's law of robotics
+  - the smiling man, ...
+- Many (all?) "mistakes" from AI come from __preference misspecification__
+
+</div>    
+
+</div>
+
+</div>
 
 ----
 
 ### Evolutionary Bias
 
-- Under some circumstances, taking bias decisions can provide a survival advantage
+- It is sometimes optimal to keep a biased decision process in certain situations
+- When taking bias decisions provides a survival advantage, it is called an __evolutionary bias__
   - treat unknown species as "hostile"
-- Limit processing cost
-- Provide informational value, i.e. help to learn faster
+- <!-- .element class="fragment" -->Rationals
+  - Limit processing cost
+  - Provide informational value, i.e. help to learn faster
+  - ...
 
 ----
 
@@ -413,7 +516,7 @@ Was the collective decision of leaving the UK biased, based on available evidenc
 
 - Why do newer movies have better ratings than older ones on movie databases (like Allocine)
 - <!-- .element: class="fragment"  data-fragment-index="2" -->And why are website not doing anything about it?
-- <!-- .element: class="fragment"  data-fragment-index="3" -->New movies are intentionnaly overrated or 
+- <!-- .element: class="fragment"  data-fragment-index="3" -->New movies are intentionnaly overrated
   - to push consumers towards "exploring"
   - to produce more information
   - and improve the rating of new movies
@@ -423,8 +526,8 @@ Was the collective decision of leaving the UK biased, based on available evidenc
 
 ### Preferences vs Utility
 
-- Another issue is that humans are not one-dimensional maximizers
-- Theories of "Preferences" are larger than utility maximization
+- Another issue is that *humans are not one-dimensional maximizers*
+- Theories of __preferences__ are larger than utility maximization
   - Among choices $\mathcal{X}$, we say that $x$ is preferred to $y$ if $x \geq y$
 - Preferences can be more general than utility maximization
   - ideally transitive if $x \geq y$ and $y \geq z$ then $x \geq z$
@@ -437,18 +540,20 @@ Was the collective decision of leaving the UK biased, based on available evidenc
 
 ----
 
-### Multi - objectives
+### Multi-objectives
 
-- We want multi-objectives:
+- Ideal AIs should be multi-objectives:
   - have sensible default for out of sample [situations](https://techcrunch.com/2017/03/17/laying-a-trap-for-self-driving-cars/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALMqR3R_-o890IYOqB6ZIH6QxlVCnda96sNz--MMiYjzGvm9FaHBZ5Hkey2FmhXzEx26r9wBMfsGpfPO9GFW30E-udtq9GgVqMr4JRrFoTUV5c0-YGdpweHxQADKpycNaenh2KvRfInOD5eVTbuGyaHbGJignO42-iJUZlw8_BpA)
+  - produce more intelligent behaviour
   - mitigate wrong objectives given by humans
-- The problem is when AIs are follow multiple objectives (which they need if they need a notion of context) their bias becomes harder to measure
+- The problem is when AIs are trained to follow multiple objectives (which they need if they need a notion of context) their bias become harder to measure/explain
 
 ----
 
-### Example: parcoursup, a ranking algorithm
+### Example: parcoursup, a multi-objective ranking algorithm
 
 - parcoursup match universities wishes and students wishes
+  - it aggregate individual's preferences
   - while respecting current laws
 - it is a variant of a stable marriage problem
 - how do you formulate the optimum?
@@ -462,11 +567,23 @@ Was the collective decision of leaving the UK biased, based on available evidenc
 
 ### Conclusions
 
-- The concept of bias is contingent to the right, scalar, objective specification
-- That one is sometimes hard to formulate completely
+- The concept of predictive bias is contingent to the right, scalar (i.e. a number), objective specification
+- Formulating the wrong the objective leads to a prediction bias
+- Objectives are inherently hard to formulate exhaustively
 - The presence of several objectives complicates the pictures
   - for humans
   - and AIs
+
+---
+
+## Behavioural Biases
+
+----
+
+- ... Next time: 
+  - how do we know when humans act non-rationally? 
+  - Can we then establish some patterns in their behaviours?
+
 
 ---
 

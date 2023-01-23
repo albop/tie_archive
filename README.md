@@ -11,4 +11,4 @@ Tentative schedule
 | 13/02 | ????   Inequalities                                        |
 | 20/02 | ????   Ecological transition (1)                           |
 | 27/02 | ????   Ecological transition (2)                           |
-| 06/02 | Exam                                                       |
+| 06/03 | Exam                                                       |
