@@ -1,3 +1,27 @@
+## Warmup
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cda97e950988200b23bd80" width="100%" class="stretch"></iframe>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdad518f81e8b5131ed34b" width="100%" class="stretch"></iframe>
+
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdafd7d0c8143c62433886" width="100%" class="stretch"></iframe>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdaffc1a7764faade6ae03" width="100%" class="stretch"></iframe>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdb0268f81e8b5131ed914" width="100%" class="stretch"></iframe>
+
+---
+
+
 # AI Biases vs Human Biases
 
 ### Pablo Winant, ESCP Business School
@@ -19,6 +43,8 @@
 ----
 
 ## A small question
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63ce7bfee77a800d2e7a9c50" width="100%" ></iframe> 
 
 - Are you ready to be driven by an AI-driven car, 5 years from now?
 - <!-- .element class="fragment" --> Info about car accidents (today)
@@ -83,6 +109,9 @@ Cassie Kozyrkov, chief decision scientist from Google:
 
 ----
 
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63cdb4ed10e81389e20790f6" width="100%" class="stretch"></iframe>
+
+----
 
 Example of questions: (from Cassie Kozyrkov, chief decision scientist from Google)
 
@@ -159,6 +188,10 @@ __Prediction Bias__:  systematic error made by an algorithm producing a predicti
 An AI or you must choose labels to best describe this image:
 
 <img src="red_watermelon.jpg" width=60%>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63ce4d520cad4779b377e9fe" width="100%"></iframe>
 
 ----
 
@@ -271,6 +304,10 @@ datasets: a systematic review*
 <img src="gender_match.jpg" width="60%">
 
 </div>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/KNURPY/questions/63ce6464ba2b5ba1cc08cff6" width="100%" class="flex"></iframe>
 
 ----
 
