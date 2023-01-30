@@ -1,4 +1,8 @@
-# AI & Behavioural Biases (quick intro)
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7ab437d077b6fb1af9a3c" width="100%" class="stretch"></iframe>
+
+---
+
+# Quick Intro to Behavioural Economics
 
 ### Pablo Winant, ESCP Business School
 
@@ -14,44 +18,33 @@
 
 ----
 
-### Overview
-
-
-In [session 2](./session_2/../index.html), we have discussed several kinds of biases that apply to AI:
-- biases from a quantitative/statistical approach
-  - systematically wrong predictions of well-defined prediction algorithm
-- the problem of preference misspecification
-  - algorithm is correct, but the goal it must achieve is wrong
-  - preference specification is subject to many problems (multiple contingencies, preference aggregation, multiple objectives)
-- AI "behavioral" mistakes
-  - AI replicates non rational human behavior (behavioural biases)
-  - can be by immitation or otherwise
-
-----
-
 ### Behavioural Economics
 
-```Behavioral economics combines elements of economics and psychology to understand how and why people behave the way they do in the real world. It differs from neoclassical economics, which assumes that most people have well-defined preferences and make well-informed, self-interested decisions based on those preferences.``` ([intro from university of Chicago](https://news.uchicago.edu/explainer/what-is-behavioral-economics))
-
-Behavioural economists:
-- identify *actual* patterns in agent's decisions 
-  - they are measured as deviations to idealized, rational, utility-maximizing economic behaviour
-- develop theories that can, consistently predict these patterns
-- patterns and theories are tested empirically in labs
+*Behavioral economics combines elements of economics and psychology to understand how and why people behave the way they do in the real world. It differs from neoclassical economics, which assumes that most people have well-defined preferences and make well-informed, self-interested decisions based on those preferences.* ([intro from university of Chicago](https://news.uchicago.edu/explainer/what-is-behavioral-economics))
 
 ----
 
-### The Marshmallow Experiment
+### Behavioural Economists
 
-#### Instant Gratification
+<img src=tversky.jpg width=15%> 
+<img src=kahneman.jpg width=15%> 
+<img src=thaler.jpg width=15%>
+<img src="Thinking,_Fast_and_Slow.jpg" width=15%>
 
-<iframe width="1120" height="630" src="https://www.youtube.com/embed/QX_oy9614HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Behavioural economists:
+
+  - identify *actual* patterns in agent's decisions 
+    - they are measured as deviations to idealized, rational, utility-maximizing economic behaviour
+  - develop theories that can, consistently predict these patterns
+  - patterns and theories are tested empirically in labs
+
+- Good introduction: *Thinking Fast and Slow*
 
 ----
 
 ### The lab
 
-<img src=lab1.jpg width=30%> <img src=lab2.png width=30%>
+<img src=lab1.jpg width=20%> <img src=lab2.png width=20%>
 
 Behavioural economists recruit participants for their experiments.
 
@@ -60,90 +53,109 @@ Behavioural economists recruit participants for their experiments.
 - experiment tries to recreate conditions so as to expose specific features of human choices
 - usually *one* determinant of choice is randomized so as to measure its effect cleanly
 - more participants lead to more certain results (if representative)
+- nowadays: online labs
 
 ----
 
-### Example: Other-regarding preferences
+### The Marshmallow Experiment
 
-The ultimatum game:
-- two players negotiate over a fixed amount of money
+#### Instant Gratification
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/QX_oy9614HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="stretch" allowfullscreen></iframe>
+
+---
+
+## Deviations from rationality
+
+----
+
+
+## The (neo)-classical view
+
+- Agents are perfectly rational...
+  - they don't make errors
+- ...and pursue their self interest
+  - they are selfish
+
+----
+
+
+
+### Example: the ultimatum game (1)
+
+<div class="container">
+
+<div class="col">
+
+<img src=ultimatum.jpeg width=60%>
+
+</div>
+
+<div class="col">
+
+- two players negotiate over a fixed amount of money (the pie)
 - player 1 demands a proportion of the pie
 - player 2 sees the size and player's 1 demand and either rejects or accepts it
   - accept: split is implemented
   - reject: both players get 0
 
+</div>
+</div>
+
 ----
 
-### Example: Other-regarding preferences (2)
+### Example: ultimatum game (2)
 
 <img src=ultimatum.png width=60%>
 
 - hundreds of papers since original one by Guth et al.
 - consistent results: average offer is 40%, offers below 20% have high chances to be rejected, lots of 50-50
 - note that the "rational choice" for both agents would be 99-1!
+- it is an example of __other regarding preferences__ (aka altruism)
 
 ----
 
-### Example: Other-regarding preferences (3)
+### Example: ultimatum game (3)
 
 What determines the split? What influences altruism?
 
 ![altruism](dilbert.gif)
 
-There are many variants of the ultimatum game with small variations.
-- Example: what is the effect of feeling shame towards the other player
+Can you devise an exeperiment to measure the effect of "shame"? 
+
+----
+
+### Examaple: ultimatum game (4)
+
+- Measuring the the effect of feeling shame towards the other player
+- Protocol
   - for half of the candidates, exactly as before (control sample)
     - control group
   - for the other half, the two players, don't see each other don't have any contact. Only the demand from player one is communicated to player 2.
     - treatment group
+- Result
   - -> players are less generous but the result holds
 
 ----
 
-### GPT-3
-
-- GPT-3: Generative Pre-trained Transformer
-  - by OpenAI (now Microsoft
-  - big deep-learning architecture, trained billions of texts
-- produces completion on a prompt
-  - the prompt can be used to explain the context...
-  - ... but might influence the response
-- can we use GPT-3 as our participant in the lab?
-  - with which procedure? what would be the experimental biases?
-- can we replicate experimental designs to test for behavioural biases?
-- what does it even mean?
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7ac5f7d077b6fb1afa962" class="stretch" width="100%"></iframe>
 
 ----
 
-### GPT-3: example
-
-
-----
-
-### The Behavioural AI Project
-
-- Next week: a game jam
-  - several short starting ideas will be presented
-  - choose one, work individually on it, then in group, present ideas
-  - by the end of the session fill a very short project description
-  - then one week to substantiate it a bit (not necessarily finish it)
-- The Behavioural AI project
-  - we want to know what is the behavior of AI, what are its biases
-  - think about an experimental protocol, or a game-design, which exposes it
-  - present it as if it was an actual project
- - For next time, look for resources on behavioural biases
-  - *Thinking Fast and Slow* by Daniel Kahneman is the best but there are many good youtube videos (ex: veritasium)
-
----
-
-## Example of Behavioural Biases
-
-
-----
-
-### The Reflection effect, or Loss aversion
+### Reflection Effect or Loss Aversion
 
 ![](loss_aversion.PNG)
+
+- Result from literature
+  - first lottery: 92% chose B
+  - second lottery: 80% chose A
+- Intepretation:
+  - agents are risk-seekers when it is about loosing money
+  - agents are risk-averse when it is about winning money
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7acb132c948f42f4f0661" class="stretch" width="100%"></iframe>
 
 ----
 
@@ -151,26 +163,118 @@ There are many variants of the ultimatum game with small variations.
 
 ![](certainty_effect.PNG)
 
+- Result from literature
+  - first lottery: most people choose A
+  - second lottery: most people choose B
+- Intepretation: people underweigh outcomes that are merely probable compared to those that are certain
+
+
 ----
 
-### Behavioural anomalies - Two Categories
+### Expected utility
 
-- predisposition towards error
-- mental shortcuts
+- Expected utility framework
+  - simple assumptions on people's preferences
+  - agents maximize $U(x)$ where  $U$ is increasing and concave
+  - standard in economics and finance
+- Concavity implies that agents are risk agents are risk averse
 
-We are interested in both
+----
+
+### Prospect theory
+
+![](prospect.webp)
+
+- Prospect theory was proposed by Kahneman and Tversky in 1979
+- Attempts to describe realistically how humans evaluate losses and gains 
+- *Prospect* is a close synonym for *gamble*
+
+---
+
+
+## Other behavioural anomalies
+
+
+----
+
+### Behavioural anomalies
+
+- We classically distinguish two kinds of behavioural anomalies
+  - predisposition towards error
+  - mental shortcuts (aka __heuristics__)
+
+- They have been studied by psychologists for a while
+- And are being revisited systematically by economists/psychologists
+  - ...following the "replication crisis"
 
 ----
 
 ### Excessive Optimism
 
+<div class="container">
+
+<div class="col">
+
 - __Definition__: overstimating favourable outcomes
 
 - __Instructions__:
-  - You are vice president of product development and are evaluating 8 new product proposals. You have asked two people from R&D (in whom you have equal confidence) to give independent forecasts of the R&D costs.
+  - You are vice president of product development and are evaluating 8 new product proposals. You have asked two people from R&D (in whom you have equal confidence) to give independent forecasts of the R&D __costs__.
+
+</div>
+
+<div class="col">
+
+
+<div class="fragment current-visible">
+
+| Project no. | A’s forecast | B’s forecast | Your forecast |
+|-------------|--------------|--------------|---------------|
+| 1           |  167,000     |    272,000   |               |
+| 2           |  274,000     |    783,000   |               |
+| 3           |  529,000     |    433,000   |               |
+| 4           |  357,000     |    866,000   |               |
+| 5           |  146,000     |    659,000   |               |
+| 6           |  937,000     |    446,000   |               |
+| 7           |  906,000     |    811,000   |               |
+| 8           |  483,000     |    379,000   |               |
+
+</div>
+
+</div>
 
 ----
 
+| Project no. | A’s forecast | B’s forecast | Your forecast | Midpoint | Median forecast |
+|-------------|--------------|--------------|---------------|----------|-----------------|
+| 1           |  167,000     |    272,000   |               | 219,500  | 250,000         |
+| 2           |  274,000     |    783,000   |               | 528,500  | 600,000         |
+| 3           |  529,000     |    433,000   |               | 481,000  | 500,000         |
+| 4           |  357,000     |    866,000   |               | 611,500  | 697,110         |
+| 5           |  146,000     |    659,000   |               | 402,500  | 458,850         |
+| 6           |  937,000     |    446,000   |               | 691,500  | 788,310         |
+| 7           |  906,000     |    811,000   |               | 858,500  | 875,000         |
+| 8           |  483,000     |    379,000   |               | 431,000  | 450,000         |
+
+</div>
+
+</div>
+
+<div class="fragment current-visible">
+
+- If A and B’s forecasts are unbiased, your best estimate would be the midpoint
+- The median forecast shows the typical response of MBA students with 10 years
+of executive experience
+- If your forecast is above the midpoint, you are implicitly assuming that R&D
+personnel underestimate the costs 
+  - that they have "excessive optimism"
+
+</div>
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7ae607d077b6fb1afc65d" width="100%" class="stretch"></iframe>
+
+----
 
 ### Over confidence
 
@@ -192,18 +296,22 @@ __Definition__: When people believe an event was more predictable than it actual
 
 ----
 
+![The Riddler](riddle.jpg)
+
+----
+
 ### Confirmation Bias
 
 - __Definition__: When you search for or interpret new information in a way that supports existing beliefs as opposed to challenge them.
 - Study (Lord, Ross & Leeper, 1979)
-  - ```48 undergraduates supporting and opposing capital punishment were exposed to 2 purported studies, one seemingly confirming and one seemingly disconfirming their existing beliefs about the deterrent efficacy of the death penalty. As predicted, both proponents and opponents of capital punishment rated those results and procedures that confirmed their own beliefs to be the more convincing and probative ones```
-  -  ```Participants gave higher ratings to studies that confirmed their initial point of view even when studies on both sides had been carried out by the same methods in the end though everyone had read all the same studies, both those who initially supported the death penalty and those who initially opposed it reported that reading he studies had strengthened their beliefs``` 
+  - Setup:
+   *48 undergraduates supporting and opposing capital punishment were exposed to 2 purported studies, one seemingly confirming and one seemingly disconfirming their existing beliefs about the deterrent efficacy of the death penalty. As predicted, both proponents and opponents of capital punishment rated those results and procedures that confirmed their own beliefs to be the more convincing and probative ones.*
+  - Result: 
+  *Participants gave higher ratings to studies that confirmed their initial point of view even when studies on both sides had been carried out by the same method. In the end though everyone had read all the same studies, both those who initially supported the death penalty and those who initially opposed it reported that reading the studies had strengthened their beliefs*.
 
 ----
 
 ### Attribution Bias
-
-- __Definition__: Overestimating how much control we have over events
 
 - __Test__:
   - Write down 3 examples of successes that you have had
@@ -211,18 +319,32 @@ __Definition__: When people believe an event was more predictable than it actual
   - <!-- .element: class="fragment" --> What were the causes of the success?
   - <!-- .element: class="fragment" --> What were the causes of the failures?
 
+- <span class="fragment"> __Definition (attribution bias)__: Overestimating how much control we have over events</span>
+
 - <!-- .element: class="fragment" --> Interpretation:
-  - Attribution bias “occurs when people attribute their success to skills, and
-  their failures to randomness” (Taleb 2001)
-  - It’s when we attribute praise/blame to the person rather than the situation
-  However, successful people can also mistake hard work for luck. Timing can be important but so is developing the skills
-  to be able to take opportunities when presented. After all, “the harder you practice, the luckier you get” Gary Player
+  - Attribution bias *occurs when people attribute their success to skills, and
+  their failures to randomness* (Taleb 2001)
+  - It is when we attribute praise/blame to the person rather than the situation.
+  *However, successful people can also mistake hard work for luck. Timing can be important but so is developing the skills
+  to be able to take opportunities when presented. After all, “the harder you practice, the luckier you get”* Gary Player
+
+----
+
+### Ownership Bias / Endowment Effect
+
+- __Definition__: people place a higher valuation on an asset, purely by owning it
+- Example:
+  - People are given a mug worth 10$
+  - Then the opportunity to exchange it for pens worth 11$
+  - Most people don't take the deal
+- A striking [example](https://twitter.com/businessinsider/status/1034762586938433536?s=11)
+- Do you see other examples? Implications
 
 ----
 
 ### Representative heuristic
 
-- __Definition__: Judgments based on stereotypes
+- __Definition__: Judgements based on stereotypes
 
 ![](stereotype.PNG)
 
@@ -230,11 +352,15 @@ __Definition__: When people believe an event was more predictable than it actual
 
 ### Availability heuristic
 
-- __Definition__: Judgment based on the ease with which instances come to mind
+- __Definition__: Judgement based on the ease with which instances come to mind
 
 - __Example__: We tend to think that footballers make more money than dentists, but only because we don't see the failures (there’s a selection bias)
   - Dentistry is a more lucrative profession since it maximises your expected income across all alternative histories
-  - “One cannot consider a profession without taking into account the average of the people who enter it, not the sample of those who succeed” Taleb (2001)
+  - *One cannot consider a profession without taking into account the average of the people who enter it, not the sample of those who succeed* Taleb (2001)
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7b47d9ee24077fc0830a5" width="100%" class="stretch"></iframe>
 
 ----
 
@@ -243,11 +369,18 @@ __Definition__: When people believe an event was more predictable than it actual
 __Definition__: viewing things in relation to an irrelevant comparison point
 
 - Experiment:
-  -  <!-- .element: class="fragment" -->What percentage of members of the United Nations are
-  countries in Africa
+  -  <!-- .element: class="fragment" -->Show a number: e.g. 10
+  -  <!-- .element: class="fragment" -->What percentage of members of the United Nations are countries in Africa
+- Result
   -  <!-- .element: class="fragment" -->People who saw a 10 had an average guess of 25%
   -  <!-- .element: class="fragment" -->People who saw a 65 had an average guess of 45%
 -  <!-- .element: class="fragment" -->Correct answer: 28%. There are 54 African countries (including Western Sahara), and 192 UN member states
+
+----
+
+![](oil_spill.jpg)
+
+How oil spills harm birds, dolphins, sea lions and other wildlife
 
 ----
 
@@ -257,8 +390,25 @@ __Definition__: viewing things in relation to an irrelevant comparison point
 
 - Example:
   - <!-- .element: class="fragment" -->Following the Exxon Valdez oil spill, people were asked how much they were willing to pay for equipment that would do the following:
-    - Save 2,000 birds: $80
-    - Save 20,000 birds:  $78
-    - Save 200,000 birds $88
-  - The almost complete neglect of quantity in such emotional contexts has been confirmed many times
+    - Save 2,000 birds: <span class="fragment"> $80 </span>
+    - Save 20,000 birds:  <span class="fragment">  $78 </span>
+    - Save 200,000 birds: <span class="fragment">  $88 </span>
+  - <!-- .element: class="fragment" -->The almost complete neglect of quantity in such emotional contexts has been confirmed many times
 
+---
+
+### Reflect and Recollect
+
+Try to name three different kinds of behavioural biases/heuristics
+
+For each one give an original example.
+
+----
+
+### Mini-homework
+
+- Groups C.X: prepare two MCQs about today's course
+
+- All groups:
+  - find a prompt to test whether GPT-3 / ChatGPT features one of those behavioural biases
+  - send the result as one single pdf page including: the prompt, the response, your interpretation
