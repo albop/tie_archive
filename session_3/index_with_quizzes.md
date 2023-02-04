@@ -1,3 +1,7 @@
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7ab437d077b6fb1af9a3c" width="100%" class="stretch"></iframe>
+
+---
+
 # Quick Intro to Behavioural Economics
 
 ### Pablo Winant, ESCP Business School
@@ -134,6 +138,10 @@ Can you devise an exeperiment to measure the effect of "shame"?
 
 ----
 
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7ac5f7d077b6fb1afa962" class="stretch" width="100%"></iframe>
+
+----
+
 ### Reflection Effect or Loss Aversion
 
 ![](loss_aversion.PNG)
@@ -144,6 +152,10 @@ Can you devise an exeperiment to measure the effect of "shame"?
 - Intepretation:
   - agents are risk-seekers when it is about loosing money
   - agents are risk-averse when it is about winning money
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7acb132c948f42f4f0661" class="stretch" width="100%"></iframe>
 
 ----
 
@@ -260,6 +272,10 @@ personnel underestimate the costs
 
 ----
 
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7ae607d077b6fb1afc65d" width="100%" class="stretch"></iframe>
+
+----
+
 ### Over confidence
 
 - __Definition__: overestimating our own abilities
@@ -281,8 +297,6 @@ __Definition__: When people believe an event was more predictable than it actual
 ----
 
 ![The Riddler](riddle.jpg)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vKA4w2O61Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ----
 
@@ -343,6 +357,10 @@ __Definition__: When people believe an event was more predictable than it actual
 - __Example__: We tend to think that footballers make more money than dentists, but only because we don't see the failures (there’s a selection bias)
   - Dentistry is a more lucrative profession since it maximises your expected income across all alternative histories
   - *One cannot consider a profession without taking into account the average of the people who enter it, not the sample of those who succeed* Taleb (2001)
+
+----
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/QTXMUQ/questions/63d7b47d9ee24077fc0830a5" width="100%" class="stretch"></iframe>
 
 ----
 
