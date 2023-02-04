@@ -59,6 +59,12 @@ Behavioural economists recruit participants for their experiments.
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/QX_oy9614HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="stretch" allowfullscreen></iframe>
 
+----
+
+### On the Replication Crisis
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/42QuXLucH3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Deviations from rationality
