@@ -1,11 +1,3 @@
----
-verticalSeparator: ----
-theme: white
-width: 1920
-height: 1080
----
-
-
 # Inequalities
 
 ### Pablo Winant, ESCP Business School
@@ -54,7 +46,6 @@ height: 1080
 
 ----
 
-
 ## Income Inequality
 
 <div class='r-stack'>
@@ -63,7 +54,6 @@ height: 1080
 <img class="fragment current-visible" data-fragment-index="2" src="assets/income_inequality_3.png" width="45%">
 <img class="fragment current-visible" data-fragment-index="3" src="assets/gini.png" width="45%">
 <img class="fragment current-visible" data-fragment-index="4" src="assets/income_inequality_comparison.png" width="45%">
-
 
 </div>
 
@@ -89,20 +79,20 @@ Here is the result for France with 10 quantiles (deciles)
 
 <div class="fragment current-visible" data-fragment-index="3">
 
-- The Lorenz curve shows graphically the deviation of the destribution from an equal benchmark
+- The Lorenz curve shows graphically the deviation of the distribution from an equal benchmark  
 - Gini Index: A/(A+B)
-    - Gini=0: perfect equality
-    - Gini=1: perfect inequality
+  - Gini=0: perfect equality
+  - Gini=1: perfect inequality
 - Remark: there is a formula for the Gini index, as a function of cumulative quantiles ($X_k$) and cumulative revenues ($Y_k$) $$G=1-\sum_{k=0}^{n-1}(X_{k+1}-X_k)(Y_{k+1}+Y_k)$$
 
 </div>
 
 <div class="fragment current-visible" data-fragment-index="4">
 
-A first international comparison:
-- France and UK have (today) similar levels of inequality
-- United States:  a more unequal country
-- China and Brasil: very unequal
+- A first international comparison:
+  - France and UK have (today) similar levels of inequality
+  - United States:  a more unequal country
+  - China and Brasil: very unequal
 
 </div>
 
@@ -124,7 +114,7 @@ https://www.statista.com/statistics/264627/ranking-of-the-20-countries-with-the-
 
 ----
 
-Quiz: do you think inequalities are rising?
+Do you think inequalities are rising?
 
 ----
 
@@ -169,12 +159,12 @@ Quiz: do you think inequalities are rising?
 
 ----
 
-[REWRITE]Global inequality rose between 1820 and 1910, and stabilized at a high level since then
-No difference between 1910 and now, except increase in middle 40%
+> Global inequality rose between 1820 and 1910, and stabilized at a high level since then
 
-level of inequality that we currently observe in the most unequal countries in the world, such as South Africa, Brazil, Mexico and the United Arab Emirates (see Chapter 1). In brief: in terms of inequality and concentration of resources and economic power, the world today is and has long been like a giant South Africa.
+> No difference between 1910 and now, except increase in middle 40%
 
-Over the long run inequality has decreased
+> level of inequality that we currently observe in the most unequal countries in the world, such as South Africa, Brazil, Mexico and the United Arab Emirates (see Chapter 1). In brief: in terms of inequality and concentration of resources and economic power, the world today is and has long been like a giant South Africa.
+
 
 ----
 
@@ -227,9 +217,11 @@ Income of the 1% and 0.1% top earners was highest in 1910 then decreased until a
 
 What kind of inequality do we care about?
 
+Should we really focus on income?
+
 ----
 
-## Measures
+## Other types of inequality
 
 - income (net of taxes)
 - income (gross)
@@ -246,12 +238,6 @@ What kind of inequality do we care about?
 - provision of public goods
 
 ----
-
-Should we focus on income?
-
-----
-
-
 
 ### Net vs Gross Inequalities
 
@@ -272,26 +258,36 @@ Should we focus on income?
 
 ### Consumption Inequality
 
+<div class="container">
+
+<div class="col">
+
 ![](assets/consumption_inequality.png)
+
+</div>
+<div class="col">
 
 From <u>Measuring and Comparing Consumption Inequality between France and the United States</u>, Aliocha Accardo, Sylvérie Herbert, Cristina Jude, Adrian Penalver
 
-----
 
-### Consumption Inequality
-
-- Consumption Inequality is much lower than income inequality
+- <!-- .element: class="fragment" -->Consumption Inequality is much lower than income inequality
 -  <!-- .element: class="fragment" -->Two main reasons
    - <!-- .element: class="fragment" --> Consumption sharing within a household or a family
    -  <!-- .element: class="fragment" -->Consumption smoothing with borrowing or saving
       - to absorb temporary shocks
       - to smooth consumption over the life cycle
 
+
+</div>
+</div>
+
 ----
 
-### Life-Cycle
+### Consumption Inequality: Life-Cycle
 
 ![](assets/lifecycle.jpg)
+
+- <!-- .element: class="fragment" --> Do we actually want to reduce it?
 
 ----
 
@@ -306,6 +302,8 @@ From <u>Measuring and Comparing Consumption Inequality between France and the Un
 
 ![](assets/wealth_inequality_extreme.png)
 
+- It is very hard to get precise data about wealth. Authors used many different strategies (tax receipts, surveys, ...)
+
 ----
 
 ### Wealth Inequality
@@ -316,14 +314,14 @@ From <u>Measuring and Comparing Consumption Inequality between France and the Un
 - What is the problem with Wealth Inequality?
   - it is very persistent
   - it is still an instrument of power (less so than in the past)
-- Since richer individuals get access to higher returns on investment, by itself, wealth inequality tends to intensify
+- Since richer individuals get access to higher returns on investment, by itself, wealth inequality tends to increase until it is taxed
 - Most economic models find that wealth is not automatically mean-reverting
 
 ----
 
 ## Inequality Dimensions
 
-For a given welfare target, one gets different inequality measures.
+For a given welfare target, one can get different inequality measures.
 
 - by changing the overall population. *Within*
   - country
@@ -335,12 +333,6 @@ For a given welfare target, one gets different inequality measures.
   - gender
   - age or generation?
   - education level
-
-----
-
-### Reference group
-
-We have seen already how the reference group affects inequality measure
 
 ----
 
@@ -362,17 +354,35 @@ We have seen already how the reference group affects inequality measure
 
 ### Inter-Generational Inequality
 
--  <!-- .element: class="fragment" -->Age gap (France)
+-  <!-- .element: class="fragment" -->A common narrative: for the age gap
    -  baby-boomers saw their income rise during their life and enjoy rather high pensions
    -  new generations have lower life-income profiles and lower expected pensions
    -  even more problematic for wealth inequality: average age for retirement is 60 years
 
+- According to D'Albis and Badji, this is not true in France
+
+----
+
+### Inter-Generational Inequality
+
+<img src=assets/dalbis_1.png width=60%>
+
+----
+
+
+### Inter-Generational Inequality
+
+<img src=assets/dalbis_2.png width=60%>
+
+
+- This is even more dubious when looking at consumption.
+- <!-- .element: class="fragment" -->... and there were a lot of other material improvements (like life expectancy)
+
+
 ---
 
 
-
-
-## Why do you care?
+# Why do you care?
 
 ----
 
@@ -413,7 +423,7 @@ __Utilitarianism__: the state should maximize total utility of all citizens(Bent
 - <!-- .element: class="fragment" -->reducing inequalities could be seen as insurance against a bad draw
 - <!-- .element: class="fragment" -->but what is the risk? when probabilities are unknown one talks about ambiguity, or radical uncertainty
 - <!-- .element: class="fragment" -->it is not clear what is the aversion to this kind of risk
-  - <!-- .element: class="fragment" -->Rawls/Knight: one maximizes utility in the worth case (<b>maximin creterion</b>)
+  - <!-- .element: class="fragment" -->Rawls/Knight: one maximizes utility in the worth case (<b>maximin criterion</b>)
 - <!-- .element: class="fragment" -->more redistribution than in the <em>utilitarian</em> case
   - but not 100% equal either
 
@@ -439,18 +449,9 @@ Among the three philosophies, what do you think is the better description of int
 We have seen last week, how regular human beings can have "other-regarding" preferences
 - cf the ultimatum game
 
-A key concept here is the notion of "reference group"
+A key concept here is the notion of __reference group__
 
 There are different kinds of "other-regarding" preferences
-
-----
-
-### Reference group
-
-----
-
-### Other regarding preferences
-
 
 ----
 
@@ -536,21 +537,23 @@ What if there was trade-off between growth and inequality:
 
 ## Inequality and Growth (2)
 
+![](assets/ineq_and_growth.png)
+
 Empirically, several studies have been carried out see whether there was a systematic relationship between growth of inequalities.
 
-Empirical literature: effect of inequality on growth
 - Deininger and Squire 1998, Barro 2000, Forbes 2000, ...:
 inconclusive
 - Banerjee and Duflo 2003: inverted U-shape
 
 ----
 
-Response to Lucas
+<u>Response to Lucas</u>
 
 >It’s fairly common for conservative economists to try and shout down any discussion of income distribution by claiming that distribution is a trivial matter compared with the huge gains from economic growth. For example, Robert Lucas:
-  > Of the tendencies that are harmful to sound economics, the most seductive, and in my opinion the most poisonous, is to focus on questions of distribution.
-
+>"Of the tendencies that are harmful to sound economics, the most seductive, and in my opinion the most poisonous, is to focus on questions of distribution."
 > The usual answer to this is to point out that we don’t actually know much about how to produce rapid economic growth — conservatives may think they know (low taxes and all that), but there is no evidence to back up their certainty. And on the other hand, we know how to make a big difference to income distribution, especially how to reduce extreme poverty. So why not work on what we know, as at least part of our economic strategy?
+
+Krugman 
 
 ----
 
@@ -581,27 +584,28 @@ Response to Lucas
 
 </div>
 
-----
-
-
-
-
-## Ideas: 
-
-read piketty's column
-
-why is inequality a big problem when facing big challenges?
-
 ---
 
-## Main challenges
-
+## Why is it crucial to control inequalities now?
 
 ----
 
----
+There are two big reasons why not tackling inequalities could have huge impact
 
-References:
+- in an unequal society, negative shocks are borne disporportionnately by the bottom of the distribution
+- actual and perceived changes in inequalities are strong drivers for doing / undoing coalitions
+  - for big reforms we need strong coalitions
+    - ex: pension reforms, carbon tax, international climate coalition
 
-- Piketty and Chancel, <u>Global inequality 1820-2020: The Persistence and Mutation of Extreme Inequality</u>, Journal of the European Economic Association, 2021
-- [World Inequality report, Chapter 2](https://wir2022.wid.world/chapter-2/).
+----
+
+## Can we do more?
+
+![](assets/can_we_do_more_1.png)
+
+----
+
+## Can we do more? (2)
+
+![](assets/can_we_do_more_2.png)
+

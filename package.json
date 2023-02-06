@@ -1,0 +1,22 @@
+{
+  "name": "tie",
+  "version": "1.0.0",
+  "description": "Tentative schedule",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albop/tie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albop/tie/issues"
+  },
+  "homepage": "https://github.com/albop/tie#readme",
+  "dependencies": {
+    "light-server": "^2.9.1"
+  }
+}
