@@ -1,5 +1,332 @@
+---
+title: "The return of the big bad inflation?"
 format:
-  revealjs:
-    menu:
-      side: right
-      width: wide
+    revealjs:
+        navigation-mode: grid
+        width: 1920
+        height: 1080
+---
+
+
+
+
+# Is Inflation Coming back?
+
+
+<!-- ```{python}
+import altair as alt
+import dbnomics
+import pandas as pd
+df = dbnomics.fetch_series([
+    "IMF/CPI/M.FR.PCPI_PC_CP_A_PT",
+    "IMF/CPI/M.GB.PCPI_PC_CP_A_PT", 
+    "IMF/CPI/M.US.PCPI_PC_CP_A_PT"
+])
+df = df[["period", "value", "series_code"]]
+df['series'] = df['series_code'].replace({
+    "M.FR.PCPI_PC_CP_A_PT": "FRA", 
+    "M.GB.PCPI_PC_CP_A_PT": "GB",
+    "M.US.PCPI_PC_CP_A_PT": "USA"
+})
+df.dropna()
+
+``` -->
+
+## Inflation {.smaller}
+
+![CPI Inflation (Source IMF)](assets/alt_inflation.svg)
+
+. . .
+
+- Inflation rates are currently very high
+- At levels never seen by European Central Bank, since its creation in 1998
+
+## Inflation {.smaller}
+
+![CPI Inflation (Source IMF)](assets/alt_inflation_longer.svg)
+
+- There were even higher levels in the 70s (and 50s in France)
+
+## Emerging / Developped Markets  {auto-animate="true"}
+
+![World Inflation Outlook (2022)](assets/world_inflation_outlook_2022.png)
+
+## Emerging / Developped Markets  {auto-animate="true"}
+
+::: columns
+:::: column
+![World Inflation Outlook (2013)](assets/world_inflation_outlook_2013.png)
+::::
+:::: column
+![World Inflation Outlook (2022)](assets/world_inflation_outlook_2022.png)
+::::
+:::
+
+. . .
+
+- Inflation has never disappeared from the world
+- The problem is quite different in developped and emerging countries
+
+# Why do we fear inflation?
+
+## Why do we fear?
+
+::: columns
+:::: column
+![Keynesian Dog. (Dall E-2)](assets/keynesian_dog.png){width=60%}
+::::
+:::: column
+![Ricardian Cat. (Dall E-2)](assets/ricardian_cat.png){width=60%}
+::::
+:::
+
+::: {.incremental}
+- decrease in cost of living
+- wasted savings
+- excessive inflation / hyperinflation
+- deflation
+- uncertainty
+- inflation tax
+:::
+
+##
+
+![Publicité Leclerc](assets/super_pouvoir_dachat.jpg)
+
+## Cost of Living
+
+
+### The Money Illusion
+
+![The Circle Flow Diagram](assets/circle_flow.png)
+
+::: incremental
+- By definition: total real income equals total revenue
+- As long as GDP grows there is no aggregate loss in purchasing power
+:::
+
+
+## Redistributive Effects of Inflation (1)
+
+Inflation has *redistributive* effects:
+
+- nonhomogeneity in consumption:
+    - different household consume a different consumption basket
+    - not all goods are affected in the same way
+    - some households loose purchasing power today
+
+##
+
+![](assets/jaravel.jpeg)
+
+
+## Redistributive Effects of Inflation (3)
+
+### between savers and borrowers
+
+![Composition of Assets across the Wealth Distribution](assets/mpc_4.png)
+
+[TODO]
+
+
+## Redistributive Effects of Inflation (2)
+
+### between agents in the economy
+
+[A little Tweet](https://twitter.com/ojblanchard1/status/1608967176232525824)
+
+- workers vs capital vs consumers
+
+
+## Excessive Inflation
+
+The redistribution caused by inflation introduces distortions in many.
+
+Higher inflation is even more volatile and distorts markets even more:
+
+- it makes the calculation of relative prices more hazardous
+
+. . . 
+
+__Hyperinflation__ is an extreme version
+
+- defined by Cagan as inflation>50% per month
+- follows extreme shocks/conditions
+- usually associated with big government deficits
+
+
+# Where does inflation comes from?
+
+## The main sources of inflation
+
+- demand-pull shock
+- cost-push shock
+- imported inflation
+- expectations
+
+## Cost-push shock
+
+::: columns
+
+:::: column
+
+![Cost-push shock](assets/cost_push_shock.png){width=100%}
+
+::::
+
+:::: column
+
+In the New-Keynesian fashion, we plot inflation against output
+
+- A cost-push shock moves the supply curve to the left
+- In equilibrium inflation increases
+
+Which shocks affect the supply curve? (Econ 101)
+
+::: {.incremental}
+- productivity shocks
+- changes in the labour market
+- increased costs of materials
+- uncertainty 
+- ...
+:::
+
+These shocks affect both the long run and the short run supply curve
+
+::::
+
+:::
+
+## Demand-pull shock
+
+::: columns
+
+:::: column
+
+![Cost-push shock](assets/demand_pull_shock.png){width=100%}
+
+::::
+
+:::: column
+
+
+- A demand-pull shock moves the demand curve to the right
+- In the short term, production and inflation increase
+- Then as prices adjust:
+    - production decreases and inflation increases further
+
+Which shocks affect the demand curve? (Econ 101)
+
+::: {.incremental}
+- productivity shocks
+- changes in the labour market
+- increased costs of materials
+- uncertainty 
+- ...
+:::
+
+::::
+
+:::
+
+## Two recent shocks: covid
+
+::: {.r-stack}
+
+![Supply-Demand Decomposition (March)](assets/covid_shock_demand.png){.fragment}
+![Supply-Demand Decomposition (April)](assets/covid_shock_demand_april.png){.fragment}
+
+:::
+
+
+Covid was a (negative) supply and (negative) demand shock.
+
+- The effect of both shocks compensated each other so that effect on inflation was mitigated
+
+::: aside
+
+_Is the COVID-19 Pandemic a Supply or a Demand Shock?_ by by Pedro Brinca, Joao B. Duarte, and Miguel Faria e Castro.
+
+:::
+
+
+## After Covid
+
+::: columns
+
+:::: column
+
+[TODO: add postapocalyptic movie]
+
+[graph with gdp recovering]
+[graph with inflation]
+
+::::
+
+:::: column
+
+After covid
+
+- economy had seeminginly recovered without damage (V-shaped recovery)
+
+- but demand recovered quickly
+    - high savings during Covid
+    - effect of government stimulus
+
+- disorganization of the supply chain
+    - reorganization
+
+- two positive demand shocks
+
+::::
+
+:::
+
+## {background-image="assets/Flag_of_Ukraine.svg"}
+
+## And then the war in Ukraine...
+
+![Prices of Oil (left) and Gas (right)](assets/gas_oil_price.png)
+
+- A poster case of imported inflation
+    - the price of (russian)oil-intensive goods rises more
+
+## ... added to a persistent disorganization of world supply-chains
+
+[TODO]
+
+##
+
+Inflation sous-jacente (hors énergie et alimentation) : +4,2 % en France, +5,2 % en zone euro
+
+# What comes next
+
+## What do we need to watch?
+
+Demand-driven inflation seems out of question
+- as long as the CB continues its policy rates
+
+Cost-push shocks might be persistent
+- oil prices will not revert
+- cost of energy might increase further because of the green transition
+
+What about the expectations channel?
+
+
+##
+
+![](assets/fixing.png)
+
+##
+![](assets/previsions_croissance_inflation.png)
+
+##
+![](assets/terminal_rate.png)
+
+
+
+## Missing:
+
+- historical context
+
+- reading
