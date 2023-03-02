@@ -79,13 +79,16 @@ df.dropna()
 . . .
 
 - Inflation has never disappeared from the world
-- The problem is quite different in developped and emerging countries
-    - TODO: explanation?
+- The problem is quite different in developped and emerging countries[^reasons]
+
+[^reasons]: Among issues that are specific to developing countries: institutions credibility, exchange rate vulnerabilities...
 
 
 # The cost of Inflation {#sec-inflation-cost}
 
 ## The cost of Inflation {.scrollable auto-animate="true"}
+
+__Inflation is a 'wicked problem' − speech by Huw Pill__
 
 Good evening everyone. It is a great pleasure to be here at the Warwick Think Tank today. Thanks to the organisers for the invitation to participate.
 
@@ -185,6 +188,8 @@ The responsibility for all remaining errors is my own.
 
 ## The cost of Inflation { auto-animate="true"}
 
+__Inflation is a 'wicked problem' − speech by Huw Pill__
+
 Good evening everyone. It is a great pleasure to be here at the Warwick Think Tank today. Thanks to the organisers for the invitation to participate.
 
 ... 
@@ -213,7 +218,7 @@ __Hyperinflation__ is an extreme version
 - usually associated with big government deficits
 
 
-## Why / who should fear inflation?
+## Why should we fear inflation?
 
 ::: columns
 :::: column
@@ -225,7 +230,7 @@ __Hyperinflation__ is an extreme version
 :::
 
 ::: {.incremental}
-- decrease in cost of living
+- increase in cost of living
 - wasted savings
 - excessive inflation / hyperinflation
 - deflation
@@ -255,7 +260,11 @@ __Hyperinflation__ is an extreme version
 ## Redistributive Effects of Inflation
 
 
-Inflation has *redistributive* effects through different channels[^jaravel]
+Inflation has *redistributive* effects through different channels[^jaravel]:
+
+- consumption channel
+- wealth redistribution channel
+- renegociation channel
 
 [^jaravel]: Data comes from *Inflation and Inequality* by Xavier Jaravel and *The costs of being poor: inflation inequality leads to three million more people in poverty* 2022, by Wimer Collyer and Jaravel.
 
@@ -323,7 +332,7 @@ Inflation has *redistributive* effects through different channels[^jaravel]
 
 ### Savers and Borrowers 
 
-![Composition of Assets across the Wealth Distribution](assets/mpc_4.png)
+![Composition of Assets across the Wealth Distribution](assets/mpc_4.png){width=20%}
 
 - In general inflation benefits borrowers rather than savers
     - but this depends on how assets/liabilities are indexed to inflation
@@ -382,7 +391,7 @@ It lead economists to believe there was a wage-price inflation spiral...
 
 :::: column
 
-![Reagan against the inflation spiral](assets/reagan.png){width=100%}
+![Reagan against the inflation spiral](assets/reagan.png){width=60%}
 
 ::::
 
@@ -505,10 +514,10 @@ These shocks affect both the long run and the short run supply curve
 Which shocks affect the demand curve? (Econ 101)
 
 ::: {.incremental}
-- productivity shocks
-- changes in the labour market
-- increased costs of materials
-- uncertainty 
+- preference shocks
+- changes in uncertainty / expectations
+- 
+- 
 - ...
 :::
 
@@ -564,16 +573,11 @@ What was the situation ?
 
 ## After Covid: Supply {auto-animate="true"}
 
-![Suppliers’ delivery times index (ECB)](assets/supply_chain_issues.png){width=100%}
 
 - labour market remained tight
-- global supply chain remained disorganized
+- local and global supply chains were disorganized
 
-##
 
-Net effect?
-
-TODO
 
 ## {background-image="assets/Flag_of_Ukraine.svg"}
 
@@ -581,11 +585,11 @@ TODO
 
 ::: r-stack
 
-:::: fragment
-![Prices of Oil (left) and Gas (right)](assets/gas_oil_price.png)
+:::: {.fragment .current-visible}
+![Prices of Oil (left) and Gas (right)](assets/gas_oil_price.png){width=80%}
 ::::
-:::: fragment
-![Inflation Decomposition](assets/inflation_decomposition.png)
+:::: {.fragment .current-visible}
+![Inflation Decomposition](assets/inflation_decomposition.png){width=70%}
 ::::
 :::
 
@@ -680,23 +684,27 @@ What about the expectations channel?
 
 ## Expectations Channel
 
-We know inflation can be a self-fullfiling prophecy
+Inflation can be a self-fullfiling prophecy
 
-TODO
+- in economics, there can sometime be *multiple equilibria*
+
+In that case, it is the role of the central bank to coordinate the markets on the right equilibrium...
+
+... and anchor expectations
+
+. . .
+
+![](assets/yoda.jpg)
+
 
 ##
 
-![Implicit Inflation Forecast](assets/fixing.png)
+ 
+![Implicit Inflation Forecast](assets/fixing.png){width=40%} ![Market Implied Terminal Rate](assets/terminal_rate.png){width=40%}
 
 The Market bets on future inflation using swaps. The price of these swaps provide an implicit probability estimate of the market.
 
-- The Market expects inflation to decrease and back to its target in the middle of 2024.
-
-##
-
-![Inflation and Production Forecast](assets/previsions_croissance_inflation.png)
-
-##
-![Market Implied Terminal Rate](assets/terminal_rate.png)
+- The Market expects inflation to decrease and back to its target in the middle of 2024
+- It also expects central bank not to raise interest rates after mid 23
 
 
