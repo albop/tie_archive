@@ -2,4 +2,3 @@ revealjs/*
 node_modules/*
 *.pdf
 package-lock.json
-session_6/index_files/*
