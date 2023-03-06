@@ -12,12 +12,7 @@ format:
 ---
 
 
-
-
-
-
-
-## No problem {background-video=assets/hearts.mp4}
+## Don't worry too much... {background-video=assets/hearts.mp4}
 
 
 . . .
@@ -27,6 +22,10 @@ The concept of global warning was created by and for the Chinese, in order to ma
 . . .
 
 *Donald Trump*
+
+. . .
+
+⚠ Disclaimer: I was being sarcastic...
 
 
 ::: notes
@@ -40,7 +39,7 @@ And yet, economists working in american universities devised the consensus on th
 
 ![William Nordhaus](assets/nordhaus.jpeg){width=40%}
 
-2018: William Nordhaus received the nobel prize for his contributions on ... TODO
+__2018__: William Nordhaus received the nobel prize for his contributions for *integrating climate change into long-run macroeconomic analysis*.
 
 His work setup the consensus among economists about the most efficient way to fight climate change...
 
@@ -50,8 +49,7 @@ His work setup the consensus among economists about the most efficient way to fi
 
 ::: aside
 
-TODO actually not the first nobel prize on climate change. Add reference to lecture.
-
+For those interested in the history of climate change economics, I recommend the work / teaching of [Beatrice Cherrier](https://twitter.com/Undercoverhist/status/1531931630327283715)
 :::
 
 
@@ -59,26 +57,42 @@ TODO actually not the first nobel prize on climate change. Add reference to lect
 
 ## Global Warming
 
-1. project temperature
-2. historical episodes
-3. ICC risk assessment
+![Temperature Projection (ICCP)](assets/temperature_projection.jpg){width=60%}
 
-![](assets/global_temperatures_past.png)
+Temperature is measured as difference to preindustrial level.
 
+No action scenario: >+4 compared to preindustrial levels
+
+## Global Warming
+
+How much is too much?
+
+![Past temperatures (from CO2 trapped in ice cores)](assets/global_temperatures_past.png)
+
+. . .
+
+- 4 was *glaciation*. What about >+4?
+ 
+## Global Warming
+
+
+![Risk Assessment (ICCP 2022)](assets/iccp_risk.png)
 
 
 ## Main Cause of Global Warming
 
 
-Consensus from Earth Science
+___Consensus from Earth Science___
 
-- burning of fossil fuels (oil, gas, ) ->  Carbon Dioxyde -
+- burning of fossil fuels (oil, gas, ) 
+    ->  emission Carbon Dioxyde CO2
+    - of the main Greenhouse gases
 - GHG accumulate in the atomosphere
 - warms land and oceans
-- feedback effects
+- more evapuration -> feedback effects
 
 
-##
+## Carbon Budget
 
 ![Global Temperature and Carbon Dioxide
  (from [globalchange.gov](https://www.globalchange.gov/browse/multimedia/global-temperature-and-carbon-dioxide))](assets/global_temperature_vs_concentration.png)
@@ -117,6 +131,8 @@ We should aim to reach carbon neutrality by 2030.
 
 ## What are the options? {auto-animate="true"}
 
+![Yoichi Kaya](assets/yoichi.jpg)
+
 The Kaya identity:
 
 $$F = P \frac{G}{P} \frac{E}{G} \frac{F}{E}$$
@@ -125,8 +141,6 @@ $$F = P \frac{G}{P} \frac{E}{G} \frac{F}{E}$$
 - P: global population
 - G: world GDP
 - E: global energy consumption
-
-Yoichi Kaya.
 
 
 ## What are the options? {auto-animate="true"}
@@ -139,7 +153,6 @@ $$F = P \frac{G}{P} \frac{E}{G} \frac{F}{E}$$
 - $\frac{E}{G}$: energy intensity of GDP
 - $\frac{F}{E}$: emission intensity of energy
 
-Yoichi Kaya.
 
 ## What are the options? {auto-animate="true"}
 
@@ -151,91 +164,125 @@ $$\Delta^{\%} F =\Delta^{\%} P + \Delta^{\%} \left( \frac{G}{P}\right) + \Delta^
 - $\frac{E}{G}$: energy intensity of GDP
 - $\frac{F}{E}$: emission intensity of energy
 
-Yoichi Kaya.
-
 
 ##
 
 <iframe src="https://ourworldindata.org/grapher/kaya-identity-co2" loading="lazy" style="width: 100%; height: 1200px; border: 0px none;"></iframe>
 
-## 
-
-TODO: 
-
 ## Solutions
 
-::: incremental
-- reduce population (growth)
+What are the solutions?
+
+::: columns
+:::: column
+
+::::: incremental
+- reduce __population__ (growth)
     - a solution for developing countries
     - delicate issue... (beyond access to contraceptives)
-- reduce production (growth)
+- reduce __production__ (growth)
     - arguable for developed countries
     - quite unpopular so far
     - possible if GDP is replaced by another welfare metric
-- reduce energy intensity
+:::::
+
+::::
+:::: column
+
+::::: incremental
+- reduce __energy intensity__ (growth)
     - change production to use less energy
     - new supply chains (circular economy, recycling)
     - change consumption patterns
-- reduce carbon content of energy
+- reduce __carbon content of energy__
+:::::
+
+::::
 :::
 
 
-## 
+<!-- ## 
 
 TODO
 
 Explain that energy intensity and decarbonization can be incentivized
-using market mechanisms.
-
+using market mechanisms. -->
 
 ## Decarbonization
 
-Main ideas:
+![Carbon Budget and Fossil Fuels](assets/fuel.avif)
 
-- fuel is not rare
-- problem: some will remain in the ground -> stranded asset
+. . .
 
-Gas pollutes less than coal / oil
+Fuel is not rare!
 
-Renewable Energies are 
+Some will need to remain in the ground which creates an issue with __stranded assets__:
+  
+- specific financial risk
+- bad incentives schemes
 
-- now cost-effective
+## What are the options?
+
+::: columns
+
+:::: column
+
+__Gas__ pollutes less than coal / oil
+
+- cf [EIA](https://www.eia.gov/environment/emissions/co2_vol_mass.php)
+- is subject to leakages
+- induces locks-in effect (heavy infrastructures)
+- ... Ukraine war ...
+
+__Renewable Energies__ 
+
+- are now cost-effective
 - but intermittent
+- need a storage technology and/or a __controllable__ technology
+- concretely coal or gas
 
-Need a storage technology and/or a controllable technology
+::::
 
-Nuclear Energy
+:::: column
+__Nuclear Energy__
 
+- cost effective
+- permanent
+- but not controllable
+
+::::
+:::
 
 ## The source of actions
 
-Where does the decision comes from?
+Who must take the decision?
 
 - the state
-    - ex: by 2035, all new cars soldin EU will be carbon neutral
+    - ex: by 2035, all new cars sold in EU will be carbon neutral
     - ex: french state will construct new nuclear power plants
 - the society
     - ex: social norms could deconsider meat-eating
     - ex: we stop taking the plane (our cars) to go on holidays
 - the market
+    - consumption and production are private decisions consistent with market equilibrium
 
 We focus today on market-based solutions
 
-
-
 # The Price of Carbon
-
 
 ## A global public bad
 
-Carbon emissions can be thought of as a global public *bad*:
+A stable global climate is a global public good
+
+Carbon emissions can be thought of as a __global public *bad*__:
 
 - non-excludable: not possible to exclude a country from its effects
 - non-rivalrous:  once emitted everybody bears its consequences
 
-Alternatively a stable global climate is a global public good
+Yet another definition:
 
-By contrast: the 420Gt stock of carbon emissions is a common good.
+- the 420Gt stock of carbon emissions is a common good.
+- ... subject to the *tragedy of commons*
 
 ## The core incentive issue
 
@@ -265,13 +312,15 @@ An externality is an indirect cost or benefit to an uninvolved third party that 
 
 When agents (firms, consumers) maximize their objective they ignore the negative effect.
 
+. . .
+
 Examples:
 
-- a
-- b
-- c
+- smoking in public
+- a firm training workers
+- laptops in class
 
-If their objective is modified such as to account for the negative effects, we say that they are __internalized__.
+If their objective is modified such as to account for the negative effects, we say that the objective has been __internalized__.
 
 How can you make the authors of the above externalities internalize them?
 
@@ -280,40 +329,46 @@ How can you make the authors of the above externalities internalize them?
 
 In the context of market interactions, externalities imply that prices of goods don't reflect their true cost.
 
-Intuition of Pigouvian Taxation: 
+This leads to the notion of Pigouvian Taxation: 
 
 - if the price of a good is incorrect it must be modified...
 - ... with a tax meant to incorporate its true social cost
 
-The original motivation was to limit industrial pollution near London.
 
 Theoretically, it can be shown (under very mild assumptions) that there exists an optimal Pigou tax.
 
-TODO: retell that as a story
-
 ## The Carbon Tax
 
-In principle, a carbon tax is the best solution
+In principle, a carbon tax is the first best solution
 
 - it gives a price to a good (carbon emission) which is overconsumed
 - this provides all the right[^theright] incentives for producers and consumers...
 - ... to reduce carbon production in the most efficient way
 - ... to change consumption in a way that favours less carbon production
 
-It is also easy to implement: just tax the *production* of energy instead of all transations.
+It is also easy to implement:
+
+- just tax the *production* of energy instead of all steps of the production process
 
 [^theright]: nondistortive incentives
 
 ## Problems of the Carbon Tax
 
-There are other market imperfections to take into account:
+There are other market imperfections which the carbon tax doesn't solve
 
-- R&D: is carbon tax fostering R&D in clean technology or just reducing consumption
-- kjh
+- R&D:
+    - is it fostering R&D in clean technology or just reducing consumption?
+- Rebound effect
+    - money saved by energy efficiency can be spend on more consumption
+- Leakages:
+    - it can lead to more *imports* of carbon-intensive goods
+    - it must be complemented by a border carbon tax
 
-....
+. . .
 
-But most importantly: public opinion is very averse to it.
+But most importantly:
+
+- public opinion is very averse to it.
 
 ## The french experiment
 
@@ -323,11 +378,15 @@ A carbon tax was introduced in 2015: the "Climate-Energy Contribution"
 - initially very low rate
 - increased over time to $44.6E/ T CO₂$
 
-=> The yellow vests movement
+. . .
+
+![Yellow vests](assets/yellow_vests.jpg){width=40%}
+
+=> The yellow vests movement forced the government to back down.
 
 ## The french experiment (2)
 
-Citizen's convention for the climate:
+Citizen's convention for the climate: try to build consensus
 
 - Ocober 2019: 150 citizens drawn at random
 - Mandate: define series of measures to achieve 40% reduction in GHG by 2030
@@ -338,10 +397,11 @@ Citizen's convention for the climate:
 Results:
 
 - everything *except* carbon tax!!
-- price incentives
-- regulatory constraints
+- price incentives: VAT reduction on train tickets
+- regulatory constraints: ban polluting vehicles, mandatory house renovation, on peri-urban shoping areas
+- public green investment: train, housing, infrastructure
 
-## Economists
+## Point of view from most economists
 
 Doesn't matter with which policy, a __price__ must be put on carbon emissions:
 
@@ -383,74 +443,124 @@ Should you:
 - use liquid or solid soap
 - ...
 
-How can you know ?
+How can you know ? Other examples at [co2everything](https://www.co2everything.com/)
 
 . . .
 
 It is much easier if information is incorporated in the price.
 
-More on it at https://www.co2everything.com/
+## Price signal
 
 
-## Price is a signal
+We need a price signal
 
-for production
-for consumption
+- for production
+- for consumption
+- for investment
 
+__Market__ failure:
 
-## Small parenthesis about the soviet union
+- markets don't determine the right price for CO2 emission.
+- because of the common bad tragedy
 
+. . .
 
-## Problem
+The government(s) could intervene to set the price
 
-Market failure: markets don't determine the right price for CO2 emission.
-
-Policies are needed.
+. . .
 
 But which price should be fixed?
 
 # Estimating the price of carbon
 
-## Where does the price of carbon comes from
+## Integrated Assessment Models
 
-The Social Price of Carbon was initially computed as a byproduct of a cost-benefit analysis of decarbonization.
+Nordhaus was rewarded for his work on the DICE model
+
+- DICE: Dynamic Integrated model of Climate and the Economy
+- several variants
+
+. . .
+
+Cost-Benefit Analysis
 
 - cost: reduced economic activity
 - benefit: damage avoided
 
-The result is a so-called Integrated Assessment Model
+. . .
 
-Economic models can be reused for the modelisation of costs
+Result is a so-called Integrated Assessment Model
 
-Results from earth scientists are incorporated to measure damage
+- it is multidisciplinary in essence
+- economic models can be reused for the modelisation of costs
+- results from earth scientists are incorporated to measure damage
 
 
 ## Damages
 
-damages to different sectors:
+Damage function $D(T)$ is estimated with engineers/earth scientists
 
-- managed
-- unmanaged
-(provide examples: high income, low income)
+It evaluates the effect of global warming on many systems:
 
-tipping points: -> sudden/irreversible damage
+- natural quantitites
+    - ex: water temperature, probability of storms...
+- production functions
+    - ex: crops become less productive
+
+. . .
+
+It differentiates two states for a given system
+
+- __managed__
+    ex: a dam on a river, air conditioning, the job market in the US
+- __unmanaged__
+    ex: a flood, storm, emergency migrations
+
+*Tipping points* -> sudden/irreversible damage
 
 - makes systems effectively unmanageable
 
-impacts: nonlinear and cumulative
+## The Damage Functions
 
-early studies:  1 or 2 degrees innocuous
 
-mor recent ones: (ex 2018 IPCC report on 1.5) even 2 degrees highly disruptive
+::: columns
 
+:::: column
+
+Results from damage estimation exercises:
+
+- impacts are nonlinear and cumulative
+- early studies:  1 or 2 degrees innocuous
+- more recent ones: (ex 2018 IPCC report on 1.5)
+    - even 2 degrees highly disruptive
+
+In the DICE model damages are market and non-market
+
+- converted in consumption equivalent
+- 2% of __permanent consumption__ at 3 degrees
+- 8% at 6
+
+
+::::
+
+:::: column
+
+![Meta-Analysis](assets/howard_and_sterner.png)
+
+Howard and Sterner: meta analysis
+
+- damages 3 times higher
+::::
+
+:::
+<!-- 
 ## 
 
-DICE: damages are market and non-market
+DICE: 
 
 - 2% at 3 degrees of permanent consumption
 - 8% at 6
 
-Howard and Sterner: even more *3.5 times higher
 
 damages:
 
@@ -461,10 +571,9 @@ damages:
 - can you value lost island, house damaged by hurricane
 - traditional answer: we need a metric
 
-Keynes: better to be vaguely right than precisely wrong
+Keynes: better to be vaguely right than precisely wrong -->
 
-
-## What does it look like?
+## The DICE Model
 
 From Nordhaus Nobel lecture:
 
@@ -477,15 +586,35 @@ $$c(t) = M(y(t), z(t); α, ε(t))$$
     - with a time discount $\rho$
 - subject to many complicated constraints
     - about 20 independent equations
-- this is known as a Ramsey problem:
+- this is known as a __Ramsey problem__, a variant of neoclassical growth problem
+    - there is a social planner maximizing welfare
     - not the same as "planification": planner takes into account reaction of free markets
 
 ## IAM: theoretical finding
 
-social cost of carbon
+The problem just described produces two kinds of outputs:
 
-the shadow price of optimization
-what would be the benefit of relaxing the constraint by a little amount ?
+- the optimal path for policies (for instance carbon taxes)
+- the __social price of carbon__
+
+The social price of carbon is the shadow price (or lagrange multiplier) associated to the carbon budget constraint:
+
+- by how much welfare would be increased if the carbon budget was slightly higher
+- it is the value of leaving carbon in the ground [^tobin] 
+- or the price that should be given as a compensation to a firm for *not* using carbon
+
+
+[^tobin]: it is similar to Tobin's q.
+
+
+##
+
+![Circular Flow](assets/dice_circular_flow.jpg)
+
+## 
+
+![Simplified (!) model](assets/dice-stella.png)
+
 
 ## Concretely
 
@@ -495,22 +624,13 @@ Look at the endogenous variables and exogenous parameters
 
 - description of the economy is very crude
 
-We can play with an interactive version based on [DICE 2010](http://webdice.rdcep.org/)
-
+Play with an interactive version based on [DICE 2010](http://webdice.rdcep.org/)
 
 . . .
 
+\ 
+
 Conclusions?
-
-::: note
-
-What questions should we obtain from the model
-
-1.5 infeasible
-optimal tax about 200
-
-
-:::
 
 <!-- - 1.5 infeasible
 - 200$ -->
@@ -522,7 +642,7 @@ GAMS is a modeling language that is often used for general computional equilibri
 
 :::
 
-## Results from the 2018 model
+## Results from the actual 2018 model
 
 Three scenarios
 
@@ -545,16 +665,17 @@ over 100-year or 200-year averaging period
 ## Main Results
 
 - compare with baby-model
-    - DICE: 135 infeasible
-    - cost-benefit: 3 degrees in 2100
+    - DICE: 1.5 infeasible
+
+- result of cost-benefit: 3 degrees in 2100
 
 - slow emissions as soon as possible
 - uniformity of prices
   - equalize marginal cost of reducing emissions everywhere
   - carbon price should be equal everywhere
-- high participation
-- social Cost of carbon rising over time
+- social cost of carbon rising over time
 - policy ramp up over time
+<!-- - participation must be  -->
 
 
 ## Controversies around the DICE model
@@ -567,7 +688,7 @@ over 100-year or 200-year averaging period
 - it monetizes all activities
     - can you value lost island, house damaged by hurricane
     - traditional answer: we need a metric to do cost-benefit analysis
-- damage function does not correctly account for tail events
+- damage function does not correctly account for tail events (cf Weitzman)
 
 ## Social cost of carbon
 
@@ -606,7 +727,9 @@ A successful example:
 - trading allowances was permitted:
 - number of allowances were reduced over time
 
-Result: target reduction obtained at a fourth of projected cost
+Result:
+
+- target reduction obtained at a fourth of projected cost
 
 ::::
 :::: {.column width=25%}
@@ -619,10 +742,18 @@ Result: target reduction obtained at a fourth of projected cost
 
 ## CLimate agreements
 
+::: r-stack
+
+:::: {.fragment .current-visible}
+
 - 1994: United Nations Framework Convention on Climate Change
 
     - goal:  achieve stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interferences with the climate system.
     - meet every year to report on progress (COP.x)
+
+::::
+:::: {.fragment  .current-visible}
+
 
 - 1997: Kyoto protocol
     - limit emissions from high income countries: below 1990 levels fro 2008-2012
@@ -630,6 +761,9 @@ Result: target reduction obtained at a fourth of projected cost
     - US out: officially because india and china not subjected 
     - protocol was aiming two cover 2/3 of global emissions but ended up covering 1/3 only
     - emissions grew faster in non-participating countries
+
+::::
+:::: {.fragment .current-visible}
 
 - 2015: Paris Accord
     - 194 states, totalling over 98% of anthropogenic emissions
@@ -640,6 +774,8 @@ Result: target reduction obtained at a fourth of projected cost
         - China announced target: reduce carbon *intensity* by 60% until 2030
         - US: cut emissions  50% below 2005 levels by 2030
 
+::::
+:::
 
 ## Results {auto-animate="true"}
 
@@ -690,16 +826,91 @@ How to create a political coalition of states for climate?
 
 - this is political economy territory
 
-A possible solution advocated by Nordhaus: (TODO source)
+A possible solution suggested by Nordhaus
 
 - create a climate club
 - without a membership fee but with a penalty for those not belonging to it
+    - for instance a uniform import tax on all non-member countries
 
 To belong to the club:
 
 - commit to set domestically the carbon price at an agreed amount, through any available policy (carbon tax, emission systems, regulations)
 
-##
+# Conclusions
+
+##  More Integrated Assessment Models
+
+Nowadays, the IAM approach is followed with a variety of models
+
+In the  DICE model, the macro part is an extension of the neoclassical growth theory
+
+- productivity growth is taken as exogenous
+
+There are several variants:
+
+- endogenous growth[^romer]
+- endogenous participation / coalition building
+
+[^romer]: Paul Romer obtained the Nobel price on the same year as William Nordhaus for his contributions on growth theory.
+
+##  Green macro models
+
+As the decision horizon is getting closer several models from traditional modeling and get their climate extension
+
+- Computational General Equilibrium (CGE) models
+    - many sectors
+    - used to inform trade policy and calibrate subsidies
+    - ex: [rhomolo](https://joint-research-centre.ec.europa.eu/system/files/2020-05/jrc113322.pdf) from European Commision
+
+- DSGE models
+    - nominal rigidities → tradeoff with on inflation/unemployment
+        - ex: [IMF's GMMET model]() = GIMF + Climate
+    - overlapping generations → study intergenerational equity and long term interest rate
+
+## Basic macro tradeoff
+
+- increasing carbon price acts like a cost-push shock (similar to rise in oil price)
+- but the state perceives a revenue, which can be used to reduce costs...
+    - double dividend: damage reduction, costs reduction
+- ... by funding green investments (renewable energies, housing renovation, carbon sinks)
+- which creates a positive demand shock
+- What is the ultimate effect?
+    - depends on the multiplier effect on green investment
+
+In all cases, it is __inflationary__
+
+
+## Example from GMMET
+
+![assets/weo-ch3-chart-2.png](assets/weo-ch3-chart-2.png)
+
+Overall, all models share the basic non-controversial conclusions as the nordhaus model
+
+- early action
+- focus on the carbon price
+
+## Conclusion
+
+Integrated Assessment Models are no perfect by any means
+
+Yet:
+
+- they provide a clean conceptual framework
+- natural, actionable, policy recommendations
+- and a measure of carbon price which is increasingly used in negotiations
+
+## Next week:
+
+Other points of views...
+
+<!-- ## An example of a 
+
+What is the basic macro tradeoff ?
+
+- Carbon more expensive : like a world cost push shock → more inflation
+- On the other hand, investment in new tech : demand shock
+
+Conclusion tb -->
 
 
 <!-- ---
