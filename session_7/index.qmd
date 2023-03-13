@@ -1,0 +1,206 @@
+---
+title: "How to think of climate change?"
+format:
+    revealjs:
+        navigation-mode: grid
+        layout: wide
+        width: 1920
+        height: 1080
+        toc: true
+        toc-depth: 1
+        toc-title: Plan
+---
+
+##
+
+electric cars
+
+- macroeconomic consensus
+- political economy
+- degrowth
+- nudges
+
+# What's wrong with the carbon tax?
+
+## The carbon tax is so wonderful...
+
+Economists have many reasons to disagree with each other. But sometimes they agree.
+
+
+- 1997:  largest public statement in the history of the economics profession
+
+    - __The Economists' Statement on Climate Change__
+    - 2500 signature
+    - including many Nobel prizes, and prominent economists
+
+. . .
+
+- 2019:  largest public statement in the history of the economics profession
+
+
+    - __Economists’ Statement on Carbon Dividends__
+    - 3300 signature
+    - including many Nobel prizes, and prominent economists
+
+
+
+##
+
+>  I. The review conducted by a distinguished international panel of scientists under the auspices of the International Panel on Climate Change has determined that "the balance of evidence suggests a discernable human influence on global climate." As economists, we believe that global climate change carries with it significant environmental, economic, social, and geopolitical risks, and that preventive steps are justified.
+
+. . .
+
+>  I I. Economic studies have found that there are many potential policies to reduce greenhouse-gas emissions for which the total <mark>benefits outweigh the total costs</mark>. For the United States in particular, sound economic analysis shows that there are policy options that would slow climate change <mark>without harming American living standards</mark>, and that these measures may in fact <mark>improve U.S. productivity in the long run.</mark>
+
+. . .
+
+>  I I I. The most efficient approach to slowing climate change is through <mark>market-based policies</mark>. In order for the world to achieve its climatic objectives at minimum cost, a cooperative approach among nations is required – such as an international emissions trading agreement. The United States and other nations can most efficiently implement their climate policies through market mechanisms, such as <mark>carbon taxes or the auction of emissions permits</mark>. The revenues generated from such policies can effectively be used to <mark>reduce the deficit or to lower existing taxes</mark>.
+
+##
+
+{{< include economists_statements.qmd >}}
+
+::: notes
+
+What is the political positioning of those signing the petition?
+
+What do they fight against?
+
+What is GND?
+
+:::
+
+## 
+
+An alternative: the Green New Deal
+What would be the alternative policy ?
+
+##
+
+{{< video https://youtu.be/noPSC1vuX04 >}}
+
+Frederick van der Ploeg, CEPR conference in Paris.
+
+## Why do people reject the carbon tax?
+
+*French attitudes on climate change, carbon taxation and other climate policies”, Ecological Economics*, [Ecological Economics](2020)
+
+*Yellow Vests, Pessimistic Beliefs, and Carbon Tax Aversion* by Thomas Douenne and
+Adrien Fabre, [AEJ: Economic Policy](https://www.aeaweb.org/articles?id=10.1257/pol.20200092) (2022)
+
+Both summarized on [VoxEu](https://cepr.org/voxeu/columns/public-support-carbon-taxation-lessons-france)
+
+
+#
+
+{{< include carbon_tax.qmd >}}
+
+
+# 
+
+Need to build a voting majority for tax reform to be implemented
+
+*political economy*
+
+
+# Preferences
+
+## Reminder: The Ramsey planner
+
+In the Integrated Assessment model optimal policies are given by a *Ramsey problem*
+$$\max_{c_t} \int_{t=0}^{\infty} e^{-\rho t} U(c_t)$$ subject to
+$$\begin{cases}
+    \text{environemental damages} \\
+    \text{market equilibrium}
+\end{cases}$$
+
+Preferences over the various scenarios are represented by:
+
+- $\rho$: time discount (preference for the present)
+- $U(c)$: utility derived by consumption
+
+## The Stern Review
+
+
+::: columns
+
+:::: column 
+
+![Nicholas Stern](assets/Nicholas_Stern.jpg){width=60%}
+::::
+:::: column
+
+In 2006: the Stern Review
+
+- Commissionned by chancellor of the exchequer Gordon Brown (UK)
+- By a team lead by Nick Stern (LSE)
+- Extensive study (700p) on the effecto of climate change on the economy
+
+Overall the findings reinforce those from Nordhaus:
+
+- early action is better
+- climate change is a big market failure that should be corrected with environmental taxes
+- there should be a carbon price
+- ...
+
+But report was more pessimistic:
+
+- estimates the annual cost of transition to 1% of GDP
+    - updated to 2% in 2008
+- without action >5% of GDP
+
+
+::::
+:::
+
+## The debate over the calibration of preferences
+
+The Stern report and Nordhaus model use different discount factors $e^{-\rho r}$
+
+- Nordhaus: 4.3% a year
+    - a *descriptive* value, observed in the markets
+- Stern: discount rate 1.4% a year
+    - a *prescriptive* value, chosen by the policy maker
+    - future generations should not be discounted...
+    - ... or by a very small number to account for the possibility of an exogenous calamity destroying humanity
+
+. . .
+
+- Using maket value doesn't work if there is a market failure concerning intertemporal allocation
+- One can't escape the ethical debate of choosing the right discount factor
+
+
+## The debate over the calibration of preferences (2)
+
+
+Then what exactly is $U(c_t)$ ?
+
+It is utility of (global) consumption.
+
+It doesn't integrate:
+
+- equality concerns
+- other sources of (non-market)  happiness 
+    - breathing fresh air
+    - having a stable temperature
+- ...
+
+
+## Debate
+
+An now Nick Stern has returned with a another explosive proposition!
+
+*For climate economics, preferences can and should be treated as endogenous* by Linus Mattauch,  Nicholas Stern,  Théo Konc
+
+[VoxEu column](https://cepr.org/voxeu/columns/climate-economics-preferences-can-and-should-be-treated-endogenous)
+
+
+##
+
+::: note
+
+Formulate some questions
+
+What is so new about treating preferences as endogenous?
+
+:::
